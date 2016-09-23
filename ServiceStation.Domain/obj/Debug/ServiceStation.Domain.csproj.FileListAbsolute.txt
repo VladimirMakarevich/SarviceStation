@@ -1,0 +1,9 @@
+F:\Projects C#\different\ServiceStation\ServiceStation.Domain\bin\Debug\SarviceStation.Domain.dll.config
+F:\Projects C#\different\ServiceStation\ServiceStation.Domain\bin\Debug\SarviceStation.Domain.dll
+F:\Projects C#\different\ServiceStation\ServiceStation.Domain\bin\Debug\SarviceStation.Domain.pdb
+F:\Projects C#\different\ServiceStation\ServiceStation.Domain\bin\Debug\EntityFramework.dll
+F:\Projects C#\different\ServiceStation\ServiceStation.Domain\bin\Debug\EntityFramework.SqlServer.dll
+F:\Projects C#\different\ServiceStation\ServiceStation.Domain\bin\Debug\EntityFramework.xml
+F:\Projects C#\different\ServiceStation\ServiceStation.Domain\bin\Debug\EntityFramework.SqlServer.xml
+F:\Projects C#\different\ServiceStation\ServiceStation.Domain\obj\Debug\SarviceStation.Domain.dll
+F:\Projects C#\different\ServiceStation\ServiceStation.Domain\obj\Debug\SarviceStation.Domain.pdb
