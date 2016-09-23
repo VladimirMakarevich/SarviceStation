@@ -1,4 +1,4 @@
-# SarviceStation
+# ServiceStation
  Goal of the application
 To automate everyday work of an administrator at a service station.
 Application functionality
