@@ -5,6 +5,5 @@ F:\Projects C#\different\ServiceStation\ServiceStation.Domain\bin\Debug\EntityFr
 F:\Projects C#\different\ServiceStation\ServiceStation.Domain\bin\Debug\ServiceStation.Domain.dll.config
 F:\Projects C#\different\ServiceStation\ServiceStation.Domain\bin\Debug\ServiceStation.Domain.dll
 F:\Projects C#\different\ServiceStation\ServiceStation.Domain\bin\Debug\ServiceStation.Domain.pdb
-F:\Projects C#\different\ServiceStation\ServiceStation.Domain\obj\Debug\ServiceStation.Domain.csprojResolveAssemblyReference.cache
 F:\Projects C#\different\ServiceStation\ServiceStation.Domain\obj\Debug\ServiceStation.Domain.dll
 F:\Projects C#\different\ServiceStation\ServiceStation.Domain\obj\Debug\ServiceStation.Domain.pdb

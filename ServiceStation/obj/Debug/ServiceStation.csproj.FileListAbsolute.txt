@@ -142,3 +142,5 @@ F:\Projects C#\different\ServiceStation\ServiceStation\bin\ServiceStation.Domain
 F:\Projects C#\different\ServiceStation\ServiceStation\bin\ServiceStation.Domain.pdb
 F:\Projects C#\different\ServiceStation\ServiceStation\obj\Debug\ServiceStation.dll
 F:\Projects C#\different\ServiceStation\ServiceStation\obj\Debug\ServiceStation.pdb
+F:\Projects C#\different\ServiceStation\ServiceStation\bin\Ninject.dll
+F:\Projects C#\different\ServiceStation\ServiceStation\bin\Ninject.xml
