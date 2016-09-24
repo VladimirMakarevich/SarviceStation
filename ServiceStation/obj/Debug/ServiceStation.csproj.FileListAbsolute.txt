@@ -96,9 +96,6 @@ F:\Projects C#\different\ServiceStation\ServiceStation\bin\roslyn\vbc.exe.config
 F:\Projects C#\different\ServiceStation\ServiceStation\bin\roslyn\vbc.rsp
 F:\Projects C#\different\ServiceStation\ServiceStation\bin\roslyn\VBCSCompiler.exe
 F:\Projects C#\different\ServiceStation\ServiceStation\bin\roslyn\VBCSCompiler.exe.config
-F:\Projects C#\different\ServiceStation\ServiceStation\bin\SarviceStation.dll.config
-F:\Projects C#\different\ServiceStation\ServiceStation\bin\SarviceStation.dll
-F:\Projects C#\different\ServiceStation\ServiceStation\bin\SarviceStation.pdb
 F:\Projects C#\different\ServiceStation\ServiceStation\bin\Antlr3.Runtime.dll
 F:\Projects C#\different\ServiceStation\ServiceStation\bin\EntityFramework.dll
 F:\Projects C#\different\ServiceStation\ServiceStation\bin\EntityFramework.SqlServer.dll
@@ -112,7 +109,6 @@ F:\Projects C#\different\ServiceStation\ServiceStation\bin\Microsoft.Application
 F:\Projects C#\different\ServiceStation\ServiceStation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 F:\Projects C#\different\ServiceStation\ServiceStation\bin\Microsoft.Web.Infrastructure.dll
 F:\Projects C#\different\ServiceStation\ServiceStation\bin\Newtonsoft.Json.dll
-F:\Projects C#\different\ServiceStation\ServiceStation\bin\SarviceStation.Domain.dll
 F:\Projects C#\different\ServiceStation\ServiceStation\bin\System.Web.Helpers.dll
 F:\Projects C#\different\ServiceStation\ServiceStation\bin\System.Web.Mvc.dll
 F:\Projects C#\different\ServiceStation\ServiceStation\bin\System.Web.Optimization.dll
@@ -121,7 +117,6 @@ F:\Projects C#\different\ServiceStation\ServiceStation\bin\System.Web.Webpages.D
 F:\Projects C#\different\ServiceStation\ServiceStation\bin\System.Web.Webpages.dll
 F:\Projects C#\different\ServiceStation\ServiceStation\bin\System.Web.Webpages.Razor.dll
 F:\Projects C#\different\ServiceStation\ServiceStation\bin\WebGrease.dll
-F:\Projects C#\different\ServiceStation\ServiceStation\bin\SarviceStation.Domain.pdb
 F:\Projects C#\different\ServiceStation\ServiceStation\bin\Antlr3.Runtime.pdb
 F:\Projects C#\different\ServiceStation\ServiceStation\bin\EntityFramework.xml
 F:\Projects C#\different\ServiceStation\ServiceStation\bin\EntityFramework.SqlServer.xml
@@ -140,5 +135,10 @@ F:\Projects C#\different\ServiceStation\ServiceStation\bin\System.Web.Webpages.R
 F:\Projects C#\different\ServiceStation\ServiceStation\bin\System.Web.Helpers.xml
 F:\Projects C#\different\ServiceStation\ServiceStation\bin\System.Web.Mvc.xml
 F:\Projects C#\different\ServiceStation\ServiceStation\obj\Debug\ServiceStation.csprojResolveAssemblyReference.cache
-F:\Projects C#\different\ServiceStation\ServiceStation\obj\Debug\SarviceStation.dll
-F:\Projects C#\different\ServiceStation\ServiceStation\obj\Debug\SarviceStation.pdb
+F:\Projects C#\different\ServiceStation\ServiceStation\bin\ServiceStation.dll.config
+F:\Projects C#\different\ServiceStation\ServiceStation\bin\ServiceStation.dll
+F:\Projects C#\different\ServiceStation\ServiceStation\bin\ServiceStation.pdb
+F:\Projects C#\different\ServiceStation\ServiceStation\bin\ServiceStation.Domain.dll
+F:\Projects C#\different\ServiceStation\ServiceStation\bin\ServiceStation.Domain.pdb
+F:\Projects C#\different\ServiceStation\ServiceStation\obj\Debug\ServiceStation.dll
+F:\Projects C#\different\ServiceStation\ServiceStation\obj\Debug\ServiceStation.pdb

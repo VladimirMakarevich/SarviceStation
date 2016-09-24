@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace SarviceStation.Tests
+namespace ServiceStation.Tests
 {
     [TestClass]
     public class UnitTest1

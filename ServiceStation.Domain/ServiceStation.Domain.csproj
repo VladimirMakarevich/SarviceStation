@@ -7,8 +7,8 @@
     <ProjectGuid>{2BD0ED95-DAF8-46C8-ADDA-C035C356C653}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SarviceStation.Domain</RootNamespace>
-    <AssemblyName>SarviceStation.Domain</AssemblyName>
+    <RootNamespace>ServiceStation.Domain</RootNamespace>
+    <AssemblyName>ServiceStation.Domain</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -50,8 +50,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\IRepository.cs" />
+    <Compile Include="Concrete\ClientCardRepository.cs" />
     <Compile Include="Concrete\EfRepository.cs" />
+    <Compile Include="Concrete\OrderRepository.cs" />
+    <Compile Include="Concrete\RelatedCarsRepository.cs" />
     <Compile Include="DAL\ServiceContext.cs" />
+    <Compile Include="InitializeTestData.cs" />
     <Compile Include="Model\ClientCard.cs" />
     <Compile Include="Model\Orders.cs" />
     <Compile Include="Model\RelatedCars.cs" />

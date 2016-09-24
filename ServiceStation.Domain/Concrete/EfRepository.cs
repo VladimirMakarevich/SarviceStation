@@ -1,14 +1,12 @@
 ﻿using ServiceStation.Domain.Abstract;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using ServiceStation.Domain.DAL;
 
 namespace ServiceStation.Domain.Concrete
 {
-    public class EfRepository : IRepository
+    public partial class EfRepository : IRepository
     {
+        private ServiceContext db = new ServiceContext();
+
 
     }
 }

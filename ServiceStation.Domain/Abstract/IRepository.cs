@@ -1,13 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using ServiceStation.Domain.Model;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ServiceStation.Domain.Abstract
 {
     public interface IRepository
     {
+        IQueryable<Orders> Order { get; }
+        IQueryable<RelatedCars> RelatedCars { get; }
+        IQueryable<ClientCard> ClientCard { get; }
+
+
 
     }
 }
