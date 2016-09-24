@@ -20,6 +20,8 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizer")
 </head>
 
 <body>
@@ -70,8 +72,9 @@
     </div>
     <!-- /#wrapper -->
     <!-- jQuery -->
-    <script src="~/Scripts/jquery.js"></script>
+    @Scripts.Render("~/bundles/jquery")
     <!-- Bootstrap Core JavaScript -->
-    <script src="~/Scripts/bootstrap.min.js"></script>
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("Scripts", required: false)
 </body>
 </html>

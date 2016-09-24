@@ -7,3 +7,7 @@ F:\Projects C#\different\ServiceStation\ServiceStation.Domain\bin\Debug\ServiceS
 F:\Projects C#\different\ServiceStation\ServiceStation.Domain\bin\Debug\ServiceStation.Domain.pdb
 F:\Projects C#\different\ServiceStation\ServiceStation.Domain\obj\Debug\ServiceStation.Domain.dll
 F:\Projects C#\different\ServiceStation\ServiceStation.Domain\obj\Debug\ServiceStation.Domain.pdb
+F:\Projects C#\different\ServiceStation\ServiceStation.Domain\obj\Debug\ServiceStation.Domain.Migrations.first.resources
+F:\Projects C#\different\ServiceStation\ServiceStation.Domain\obj\Debug\ServiceStation.Domain.csproj.GenerateResource.Cache
+F:\Projects C#\different\ServiceStation\ServiceStation.Domain\obj\Debug\ServiceStation.Domain.csprojResolveAssemblyReference.cache
+F:\Projects C#\different\ServiceStation\ServiceStation.Domain\obj\Debug\ServiceStation.Domain.Migrations.NLogRemove.resources

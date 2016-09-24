@@ -144,3 +144,8 @@ F:\Projects C#\different\ServiceStation\ServiceStation\obj\Debug\ServiceStation.
 F:\Projects C#\different\ServiceStation\ServiceStation\obj\Debug\ServiceStation.pdb
 F:\Projects C#\different\ServiceStation\ServiceStation\bin\Ninject.dll
 F:\Projects C#\different\ServiceStation\ServiceStation\bin\Ninject.xml
+F:\Projects C#\different\ServiceStation\ServiceStation\bin\NLog.config
+F:\Projects C#\different\ServiceStation\ServiceStation\bin\NLog.dll
+F:\Projects C#\different\ServiceStation\ServiceStation\bin\NLog.xml
+F:\Projects C#\different\ServiceStation\ServiceStation\bin\NLog.Extended.dll
+F:\Projects C#\different\ServiceStation\ServiceStation\bin\NLog.Extended.xml

@@ -53,3 +53,6 @@ F:\Projects C#\different\ServiceStation\ServiceStation.Tests\bin\Debug\Ninject.d
 F:\Projects C#\different\ServiceStation\ServiceStation.Tests\bin\Debug\Ninject.xml
 F:\Projects C#\different\ServiceStation\ServiceStation.Tests\bin\Debug\System.Web.Optimization.dll
 F:\Projects C#\different\ServiceStation\ServiceStation.Tests\bin\Debug\System.Web.Optimization.xml
+F:\Projects C#\different\ServiceStation\ServiceStation.Tests\bin\Debug\NLog.config
+F:\Projects C#\different\ServiceStation\ServiceStation.Tests\bin\Debug\NLog.dll
+F:\Projects C#\different\ServiceStation\ServiceStation.Tests\bin\Debug\NLog.xml

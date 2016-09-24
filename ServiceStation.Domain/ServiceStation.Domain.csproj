@@ -56,16 +56,31 @@
     <Compile Include="Concrete\RelatedCarsRepository.cs" />
     <Compile Include="DAL\ServiceContext.cs" />
     <Compile Include="InitializeData.cs" />
+    <Compile Include="Migrations\201609241359068_first.cs" />
+    <Compile Include="Migrations\201609241359068_first.Designer.cs">
+      <DependentUpon>201609241359068_first.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201609241521030_NLogRemove.cs" />
+    <Compile Include="Migrations\201609241521030_NLogRemove.Designer.cs">
+      <DependentUpon>201609241521030_NLogRemove.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\ClientCard.cs" />
     <Compile Include="Model\Orders.cs" />
     <Compile Include="Model\RelatedCars.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201609241359068_first.resx">
+      <DependentUpon>201609241359068_first.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609241521030_NLogRemove.resx">
+      <DependentUpon>201609241521030_NLogRemove.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

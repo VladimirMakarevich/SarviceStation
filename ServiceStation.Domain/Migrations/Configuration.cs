@@ -9,7 +9,7 @@ namespace ServiceStation.Domain.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
+            AutomaticMigrationsEnabled = false;
         }
 
         protected override void Seed(ServiceStation.Domain.DAL.ServiceContext context)

@@ -2,9 +2,6 @@
 using ServiceStation.Domain.Model;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ServiceStation.Domain
 {
@@ -21,7 +18,7 @@ namespace ServiceStation.Domain
                     Email = "frieddurst@gmail.com",
                     Phone = "+1 904 232 787 11",
                     Address = "Jacksonville, Florida, United State",
-                    DateOfBirth = "1970-20-08"
+                    DateOfBirth = DateTime.Parse("08-20-1970")
 
                 },
 
@@ -32,7 +29,7 @@ namespace ServiceStation.Domain
                     Email = "wesborland@outlook.com",
                     Phone = "+1 904 400 666 23",
                     Address = "Jacksonville, Florida, United State",
-                    DateOfBirth = "1975-7-02"
+                    DateOfBirth = DateTime.Parse("02-07-1975")
 
                 }
             };
@@ -43,21 +40,24 @@ namespace ServiceStation.Domain
             {
                 new Orders
                 {
-                    Date = DateTime.Now,
+                    DateStarting = DateTime.Parse("01-09-2015"),
+                    DateFinished = DateTime.Parse("03-09-2015"),
                     OrderAmount = 100,
                     Status = OrderStatus.Completed
                 },
 
                 new Orders
                 {
-                    Date = DateTime.Now,
+                    DateStarting = DateTime.Parse("09-15-2016"),
+                    DateFinished = DateTime.Parse("10-10-2016"),
                     OrderAmount = 430,
                     Status = OrderStatus.InProgress
                 },
 
                 new Orders
                 {
-                    Date = DateTime.Now,
+                    DateStarting = DateTime.Parse("11-15-2016"),
+                    DateFinished = DateTime.Parse("11-18-2016"),
                     OrderAmount = 40,
                     Status = OrderStatus.Canceled
                 }

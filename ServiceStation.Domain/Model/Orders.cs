@@ -17,7 +17,9 @@ namespace ServiceStation.Domain.Model
         [Key]
         public int OrderId { get; set; }
         [Required]
-        public DateTime Date { get; set; }
+        public DateTime DateStarting { get; set; }
+        [Required]
+        public DateTime DateFinished { get; set; }
         [Required]
         public decimal OrderAmount { get; set; }
         [Required]
