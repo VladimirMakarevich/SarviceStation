@@ -22,3 +22,4 @@ C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation.Domain\obj\Debug\Servi
 C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation.Domain\obj\Debug\ServiceStation.Domain.pdb
 C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation.Domain\obj\Debug\ServiceStation.Domain.Migrations.Rebuild_db.resources
 C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation.Domain\obj\Debug\ServiceStation.Domain.csproj.GenerateResource.Cache
+C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation.Domain\obj\Debug\ServiceStation.Domain.csprojResolveAssemblyReference.cache

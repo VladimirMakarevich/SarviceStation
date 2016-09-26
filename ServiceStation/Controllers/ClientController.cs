@@ -73,5 +73,24 @@ namespace ServiceStation.Controllers
             return View();
         }
         #endregion
+
+        #region
+        public ActionResult Check(CheckClientViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                IMapper map = MappingConfig.MapperConfigClient.CreateMapper();
+                ClientCard context = map.Map<ClientCard>(model);
+
+                var result = _repository.CheckClientCardAsync(context);
+
+                if (result == null)
+                {
+                    return View();
+                }
+            }
+            return View();
+        }
+        #endregion
     }
 }

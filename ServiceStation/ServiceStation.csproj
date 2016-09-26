@@ -292,6 +292,8 @@
     <Content Include="Views\Order\List.cshtml" />
     <Content Include="Views\Car\List.cshtml" />
     <Content Include="Views\Client\New_Client.cshtml" />
+    <Content Include="Views\Home\_Check_Client.cshtml" />
+    <Content Include="Views\Home\_Check_Car.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

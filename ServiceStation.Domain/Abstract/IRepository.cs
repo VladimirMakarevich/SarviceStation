@@ -14,5 +14,7 @@ namespace ServiceStation.Domain.Abstract
         Task<string> AddCarAsync(RelatedCars model);
         Task<string> AddOrderAsync(Orders model);
 
+        Task<ClientCard> CheckClientCardAsync(ClientCard model);
+
     }
 }

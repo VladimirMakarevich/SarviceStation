@@ -98,4 +98,16 @@ namespace ServiceStation.Models
 
     }
     #endregion
+
+    #region
+    public class CheckClientViewModel
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Phone { get; set; }
+        [EmailAddress]
+        public string Email { get; set; }
+
+    }
+    #endregion
 }

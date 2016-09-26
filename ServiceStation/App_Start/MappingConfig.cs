@@ -1,10 +1,6 @@
 ﻿using AutoMapper;
 using ServiceStation.Domain.Model;
 using ServiceStation.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
 namespace ServiceStation
 {
@@ -18,6 +14,7 @@ namespace ServiceStation
             MapperConfigClient = new MapperConfiguration(cfg =>
             {
                 cfg.CreateMap<ClientCard, ClientCardViewModel>().ReverseMap();
+                cfg.CreateMap<ClientCard, CheckClientViewModel>().ReverseMap();
             });
             MapperConfigOrder = new MapperConfiguration(cfg =>
             {
