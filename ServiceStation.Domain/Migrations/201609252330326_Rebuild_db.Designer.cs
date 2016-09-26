@@ -7,13 +7,13 @@ namespace ServiceStation.Domain.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class first : IMigrationMetadata
+    public sealed partial class Rebuild_db : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(first));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Rebuild_db));
         
         string IMigrationMetadata.Id
         {
-            get { return "201609241359068_first"; }
+            get { return "201609252330326_Rebuild_db"; }
         }
         
         string IMigrationMetadata.Source

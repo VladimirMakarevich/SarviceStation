@@ -23,9 +23,9 @@ namespace ServiceStation
             #endregion
 
             #region Bundle css
-            bundles.Add(new StyleBundle("~/Content/css")
-                .Include("~/Content/bootstrap.css")
-                .Include("~/Content/css/sb-admin.css"));
+            bundles.Add(new StyleBundle("~/Content/Style")
+                .Include("~/Content/bootstrap.css",
+                "~/Content/css/sb-admin.css"));
             #endregion
 
             BundleTable.EnableOptimizations = true;

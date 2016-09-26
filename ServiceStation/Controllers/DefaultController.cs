@@ -1,4 +1,5 @@
-﻿using ServiceStation.Domain.Abstract;
+﻿using NLog;
+using ServiceStation.Domain.Abstract;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,5 +11,6 @@ namespace ServiceStation.Controllers
     public abstract class DefaultController : Controller
     {
         protected internal IRepository _repository;
+        protected internal static Logger logger = LogManager.GetCurrentClassLogger();
     }
 }

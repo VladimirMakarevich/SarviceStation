@@ -17,13 +17,13 @@ namespace ServiceStation.Domain.Model
         [Key]
         public int OrderId { get; set; }
         [Required]
-        public DateTime DateStarting { get; set; }
-        [Required]
-        public DateTime DateFinished { get; set; }
+        public DateTime Date { get; set; }
         [Required]
         public decimal OrderAmount { get; set; }
         [Required]
         public OrderStatus Status { get; set; }
+        public int ClientId { get; set; }
+        public int CarId { get; set; }
 
         public virtual ClientCard Clients { get; set; }
         public virtual RelatedCars Cars { get; set; }

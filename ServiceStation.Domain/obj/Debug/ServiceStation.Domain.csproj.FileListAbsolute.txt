@@ -11,3 +11,14 @@ F:\Projects C#\different\ServiceStation\ServiceStation.Domain\obj\Debug\ServiceS
 F:\Projects C#\different\ServiceStation\ServiceStation.Domain\obj\Debug\ServiceStation.Domain.csproj.GenerateResource.Cache
 F:\Projects C#\different\ServiceStation\ServiceStation.Domain\obj\Debug\ServiceStation.Domain.csprojResolveAssemblyReference.cache
 F:\Projects C#\different\ServiceStation\ServiceStation.Domain\obj\Debug\ServiceStation.Domain.Migrations.NLogRemove.resources
+C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation.Domain\bin\Debug\ServiceStation.Domain.dll.config
+C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation.Domain\bin\Debug\ServiceStation.Domain.dll
+C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation.Domain\bin\Debug\ServiceStation.Domain.pdb
+C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation.Domain\bin\Debug\EntityFramework.dll
+C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation.Domain\bin\Debug\EntityFramework.xml
+C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation.Domain\obj\Debug\ServiceStation.Domain.dll
+C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation.Domain\obj\Debug\ServiceStation.Domain.pdb
+C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation.Domain\obj\Debug\ServiceStation.Domain.Migrations.Rebuild_db.resources
+C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation.Domain\obj\Debug\ServiceStation.Domain.csproj.GenerateResource.Cache

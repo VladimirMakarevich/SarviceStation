@@ -1,0 +1,41 @@
+﻿@model ServiceStation.Models.CheckViewModel
+@{
+    ViewBag.Title = "New_Order";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    // LoadingElementId - элемент, который должен отображаться в процессе отправки и получения данных с сервера.
+    // Confirm - при наличии значения у данного свойства, перед отправкой запроса на сервер будет отображатся диалоговое окно с запросом.
+    var options = new AjaxOptions()
+    {
+        UpdateTargetId = "order",
+        Url = Url.Action("OrderData"),
+        Confirm = "Are you want it?"
+    };
+}
+
+<h2>Orders</h2>
+
+@using (Ajax.BeginForm(options))
+{
+    <table cellpadding="4">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Customer</th>
+            </tr>
+        </thead>
+
+        <tbody id="order">
+            @Html.Action("OrdersData", new { id = Model })
+        </tbody>
+
+    </table>
+    <p>
+        <input type="submit" value="Submit" />
+    </p>
+}
+@section scripts
+{
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+}

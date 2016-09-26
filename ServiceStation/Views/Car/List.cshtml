@@ -1,0 +1,48 @@
+﻿@model ServiceStation.Models.CarListViewModel
+@{
+    ViewBag.Title = "The list of cars";
+    ViewBag.Subheading = "(last added cars)";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <!-- Page Heading -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">
+                @ViewBag.Title
+                <small>@ViewBag.Subheading</small>
+            </h1>
+            <table class="table table-bordered">
+                <!-- On rows -->
+                <tr>
+                    <th>Id</th>
+                    <th class="warning">Make</th>
+                    <th>Model</th>
+                    <th class="warning">Year</th>
+                    <th>VIN</th>
+                    <th class="warning">Action</th>
+                </tr>
+                <!-- On cells (`td` or `th`) -->
+                @foreach (var m in Model.Cars)
+                {
+                    <tr>
+                        <td>
+                            <strong>@m.CarId</strong>
+                        </td>
+                        <td class="info">@m.Make</td>
+                        <td>@m.Model</td>
+                        <td class="info">@m.Year</td>
+                        <td>@m.VIN</td>
+                        <td>
+                            <a href="@Url.Action("Modified", "Car", new { id = m.CarId })" class="btn btn-info btn-sm">Modified</a>
+                            <a href="@Url.Action("Delete", "Car", new { id = m.CarId })" class="btn btn-warning btn-sm">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+    <!-- /.row -->
+</div>
+<!-- /.container-fluid -->

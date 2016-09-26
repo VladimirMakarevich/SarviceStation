@@ -10,12 +10,11 @@ namespace ServiceStation.Controllers
 {
     public class HomeController : DefaultController
     {
-        private static Logger logger = LogManager.GetCurrentClassLogger();
         public HomeController(IRepository repository)
         {
             _repository = repository;
         }
-        // GET: Home
+
         public ActionResult Index()
         {
             try

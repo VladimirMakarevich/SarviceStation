@@ -23,7 +23,6 @@ namespace ServiceStation.Domain.Model
         public string Phone { get; set; }
         public string Email { get; set; }
 
-        public virtual ICollection<RelatedCars> ClientCars { get; set; }
         public virtual ICollection<Orders> ClientOrder { get; set; }
     }
 }

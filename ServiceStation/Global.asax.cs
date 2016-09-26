@@ -22,6 +22,7 @@ namespace ServiceStation
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundle(BundleTable.Bundles);
+            MappingConfig.RegisterMapping();
 
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             GlobalFilters.Filters.Add(new WatchConfig());

@@ -103,3 +103,544 @@
 2016-09-24 19:46:09.3689 Debug Warn =>
 2016-09-24 19:46:09.3809 Debug Error =>
 2016-09-24 19:46:09.3809 Debug Fatal =>
+2016-09-25 08:54:12.9754 Debug Targets for ServiceStation.Controllers.HomeController by level:
+2016-09-25 08:54:12.9754 Debug Trace =>
+2016-09-25 08:54:12.9754 Debug Debug =>
+2016-09-25 08:54:12.9754 Debug Info =>
+2016-09-25 08:54:12.9754 Debug Warn =>
+2016-09-25 08:54:12.9754 Debug Error =>
+2016-09-25 08:54:12.9924 Debug Fatal =>
+2016-09-25 20:47:41.4292 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 20:47:41.4292 Debug Trace =>
+2016-09-25 20:47:41.4292 Debug Debug =>
+2016-09-25 20:47:41.4292 Debug Info =>
+2016-09-25 20:47:41.4292 Debug Warn =>
+2016-09-25 20:47:41.4292 Debug Error =>
+2016-09-25 20:47:41.4292 Debug Fatal =>
+2016-09-25 20:48:11.7173 Info Shutting down logging...
+2016-09-25 20:48:11.7343 Info Stopping file watching for path 'C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation' filter 'NLog.config'
+2016-09-25 20:48:11.7343 Info Closing old configuration.
+2016-09-25 20:48:11.7463 Trace LogFactory.Flush(00:00:15)
+2016-09-25 20:48:11.7463 Trace Flushing all targets...
+2016-09-25 20:48:11.7619 Trace ForEachItemInParallel() 0 items
+2016-09-25 20:48:11.7619 Debug Closing logging configuration...
+2016-09-25 20:48:11.7619 Debug Finished closing logging configuration.
+2016-09-25 20:48:11.7619 Info Logger has been shut down.
+2016-09-25 20:49:05.5454 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 20:49:05.5454 Debug Trace =>
+2016-09-25 20:49:05.5454 Debug Debug =>
+2016-09-25 20:49:05.5534 Debug Info =>
+2016-09-25 20:49:05.5534 Debug Warn =>
+2016-09-25 20:49:05.5534 Debug Error =>
+2016-09-25 20:49:05.5534 Debug Fatal =>
+2016-09-25 21:01:40.8610 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 21:01:40.8610 Debug Trace =>
+2016-09-25 21:01:40.8675 Debug Debug =>
+2016-09-25 21:01:40.8675 Debug Info =>
+2016-09-25 21:01:40.8675 Debug Warn =>
+2016-09-25 21:01:40.8675 Debug Error =>
+2016-09-25 21:01:40.8675 Debug Fatal =>
+2016-09-25 21:04:37.3999 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 21:04:37.3999 Debug Trace =>
+2016-09-25 21:04:37.3999 Debug Debug =>
+2016-09-25 21:04:37.3999 Debug Info =>
+2016-09-25 21:04:37.3999 Debug Warn =>
+2016-09-25 21:04:37.4144 Debug Error =>
+2016-09-25 21:04:37.4144 Debug Fatal =>
+2016-09-25 21:06:25.9656 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 21:06:25.9656 Debug Trace =>
+2016-09-25 21:06:25.9656 Debug Debug =>
+2016-09-25 21:06:25.9746 Debug Info =>
+2016-09-25 21:06:25.9746 Debug Warn =>
+2016-09-25 21:06:25.9746 Debug Error =>
+2016-09-25 21:06:25.9746 Debug Fatal =>
+2016-09-25 21:10:23.8988 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 21:10:23.8988 Debug Trace =>
+2016-09-25 21:10:23.8988 Debug Debug =>
+2016-09-25 21:10:23.8988 Debug Info =>
+2016-09-25 21:10:23.8988 Debug Warn =>
+2016-09-25 21:10:23.9118 Debug Error =>
+2016-09-25 21:10:23.9118 Debug Fatal =>
+2016-09-25 21:13:46.9168 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 21:13:46.9168 Debug Trace =>
+2016-09-25 21:13:46.9168 Debug Debug =>
+2016-09-25 21:13:46.9168 Debug Info =>
+2016-09-25 21:13:46.9283 Debug Warn =>
+2016-09-25 21:13:46.9283 Debug Error =>
+2016-09-25 21:13:46.9283 Debug Fatal =>
+2016-09-25 21:16:48.7305 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 21:16:48.7305 Debug Trace =>
+2016-09-25 21:16:48.7305 Debug Debug =>
+2016-09-25 21:16:48.7305 Debug Info =>
+2016-09-25 21:16:48.7420 Debug Warn =>
+2016-09-25 21:16:48.7420 Debug Error =>
+2016-09-25 21:16:48.7420 Debug Fatal =>
+2016-09-25 21:18:34.3076 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 21:18:34.3076 Debug Trace =>
+2016-09-25 21:18:34.3076 Debug Debug =>
+2016-09-25 21:18:34.3076 Debug Info =>
+2016-09-25 21:18:34.3076 Debug Warn =>
+2016-09-25 21:18:34.3196 Debug Error =>
+2016-09-25 21:18:34.3196 Debug Fatal =>
+2016-09-25 21:19:17.6462 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 21:19:17.6462 Debug Trace =>
+2016-09-25 21:19:17.6462 Debug Debug =>
+2016-09-25 21:19:17.6462 Debug Info =>
+2016-09-25 21:19:17.6462 Debug Warn =>
+2016-09-25 21:19:17.6462 Debug Error =>
+2016-09-25 21:19:17.6622 Debug Fatal =>
+2016-09-25 22:21:56.7389 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 22:21:56.7409 Debug Trace =>
+2016-09-25 22:21:56.7409 Debug Debug =>
+2016-09-25 22:21:56.7409 Debug Info =>
+2016-09-25 22:21:56.7409 Debug Warn =>
+2016-09-25 22:21:56.7409 Debug Error =>
+2016-09-25 22:21:56.7559 Debug Fatal =>
+2016-09-25 22:23:28.1979 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 22:23:28.1979 Debug Trace =>
+2016-09-25 22:23:28.1979 Debug Debug =>
+2016-09-25 22:23:28.1979 Debug Info =>
+2016-09-25 22:23:28.2109 Debug Warn =>
+2016-09-25 22:23:28.2109 Debug Error =>
+2016-09-25 22:23:28.2109 Debug Fatal =>
+2016-09-25 22:23:38.1256 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 22:23:38.1256 Debug Trace =>
+2016-09-25 22:23:38.1306 Debug Debug =>
+2016-09-25 22:23:38.1306 Debug Info =>
+2016-09-25 22:23:38.1306 Debug Warn =>
+2016-09-25 22:23:38.1306 Debug Error =>
+2016-09-25 22:23:38.1306 Debug Fatal =>
+2016-09-25 22:24:22.6481 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 22:24:22.6481 Debug Trace =>
+2016-09-25 22:24:22.6481 Debug Debug =>
+2016-09-25 22:24:22.6481 Debug Info =>
+2016-09-25 22:24:22.6481 Debug Warn =>
+2016-09-25 22:24:22.6481 Debug Error =>
+2016-09-25 22:24:22.6631 Debug Fatal =>
+2016-09-25 22:24:41.6595 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 22:24:41.6625 Debug Trace =>
+2016-09-25 22:24:41.6625 Debug Debug =>
+2016-09-25 22:24:41.6625 Debug Info =>
+2016-09-25 22:24:41.6625 Debug Warn =>
+2016-09-25 22:24:41.6625 Debug Error =>
+2016-09-25 22:24:41.6625 Debug Fatal =>
+2016-09-25 22:26:04.6559 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 22:26:04.6559 Debug Trace =>
+2016-09-25 22:26:04.6619 Debug Debug =>
+2016-09-25 22:26:04.6619 Debug Info =>
+2016-09-25 22:26:04.6619 Debug Warn =>
+2016-09-25 22:26:04.6619 Debug Error =>
+2016-09-25 22:26:04.6619 Debug Fatal =>
+2016-09-25 22:26:12.0459 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 22:26:12.0459 Debug Trace =>
+2016-09-25 22:26:12.0459 Debug Debug =>
+2016-09-25 22:26:12.0529 Debug Info =>
+2016-09-25 22:26:12.0529 Debug Warn =>
+2016-09-25 22:26:12.0529 Debug Error =>
+2016-09-25 22:26:12.0529 Debug Fatal =>
+2016-09-25 22:26:34.9692 Info Shutting down logging...
+2016-09-25 22:26:34.9822 Info Stopping file watching for path 'C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation' filter 'NLog.config'
+2016-09-25 22:26:34.9902 Info Closing old configuration.
+2016-09-25 22:26:34.9902 Trace LogFactory.Flush(00:00:15)
+2016-09-25 22:26:35.0062 Trace Flushing all targets...
+2016-09-25 22:26:35.0062 Trace ForEachItemInParallel() 0 items
+2016-09-25 22:26:35.0062 Debug Closing logging configuration...
+2016-09-25 22:26:35.0242 Debug Finished closing logging configuration.
+2016-09-25 22:26:35.0242 Info Logger has been shut down.
+2016-09-25 22:27:10.8054 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 22:27:10.8054 Debug Trace =>
+2016-09-25 22:27:10.8054 Debug Debug =>
+2016-09-25 22:27:10.8054 Debug Info =>
+2016-09-25 22:27:10.8054 Debug Warn =>
+2016-09-25 22:27:10.8204 Debug Error =>
+2016-09-25 22:27:10.8204 Debug Fatal =>
+2016-09-25 22:27:15.8078 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 22:27:15.8078 Debug Trace =>
+2016-09-25 22:27:15.8078 Debug Debug =>
+2016-09-25 22:27:15.8078 Debug Info =>
+2016-09-25 22:27:15.8078 Debug Warn =>
+2016-09-25 22:27:15.8198 Debug Error =>
+2016-09-25 22:27:15.8198 Debug Fatal =>
+2016-09-25 22:27:44.1873 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 22:27:44.1873 Debug Trace =>
+2016-09-25 22:27:44.1933 Debug Debug =>
+2016-09-25 22:27:44.1933 Debug Info =>
+2016-09-25 22:27:44.1933 Debug Warn =>
+2016-09-25 22:27:44.1933 Debug Error =>
+2016-09-25 22:27:44.1933 Debug Fatal =>
+2016-09-25 22:28:55.3005 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 22:28:55.3025 Debug Trace =>
+2016-09-25 22:28:55.3025 Debug Debug =>
+2016-09-25 22:28:55.3025 Debug Info =>
+2016-09-25 22:28:55.3025 Debug Warn =>
+2016-09-25 22:28:55.3025 Debug Error =>
+2016-09-25 22:28:55.3025 Debug Fatal =>
+2016-09-25 22:44:53.4713 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 22:44:53.4743 Debug Trace =>
+2016-09-25 22:44:53.4743 Debug Debug =>
+2016-09-25 22:44:53.4743 Debug Info =>
+2016-09-25 22:44:53.4743 Debug Warn =>
+2016-09-25 22:44:53.4743 Debug Error =>
+2016-09-25 22:44:53.4743 Debug Fatal =>
+2016-09-25 22:45:23.7678 Info Shutting down logging...
+2016-09-25 22:45:23.7868 Info Stopping file watching for path 'C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation' filter 'NLog.config'
+2016-09-25 22:45:23.7868 Info Closing old configuration.
+2016-09-25 22:45:23.8098 Trace LogFactory.Flush(00:00:15)
+2016-09-25 22:45:23.8098 Trace Flushing all targets...
+2016-09-25 22:45:23.8228 Trace ForEachItemInParallel() 0 items
+2016-09-25 22:45:23.8228 Debug Closing logging configuration...
+2016-09-25 22:45:23.8348 Debug Finished closing logging configuration.
+2016-09-25 22:45:23.8348 Info Logger has been shut down.
+2016-09-25 22:46:14.3921 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 22:46:14.3921 Debug Trace =>
+2016-09-25 22:46:14.3986 Debug Debug =>
+2016-09-25 22:46:14.3986 Debug Info =>
+2016-09-25 22:46:14.3986 Debug Warn =>
+2016-09-25 22:46:14.3986 Debug Error =>
+2016-09-25 22:46:14.3986 Debug Fatal =>
+2016-09-25 23:12:10.3008 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 23:12:10.3028 Debug Trace =>
+2016-09-25 23:12:10.3028 Debug Debug =>
+2016-09-25 23:12:10.3028 Debug Info =>
+2016-09-25 23:12:10.3028 Debug Warn =>
+2016-09-25 23:12:10.3028 Debug Error =>
+2016-09-25 23:12:10.3028 Debug Fatal =>
+2016-09-25 23:13:22.8788 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 23:13:22.8818 Debug Trace =>
+2016-09-25 23:13:22.8818 Debug Debug =>
+2016-09-25 23:13:22.8818 Debug Info =>
+2016-09-25 23:13:22.8818 Debug Warn =>
+2016-09-25 23:13:22.8818 Debug Error =>
+2016-09-25 23:13:22.8818 Debug Fatal =>
+2016-09-25 23:13:53.1800 Info Shutting down logging...
+2016-09-25 23:13:53.1800 Info Stopping file watching for path 'C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation' filter 'NLog.config'
+2016-09-25 23:13:53.1800 Info Closing old configuration.
+2016-09-25 23:13:53.2015 Trace LogFactory.Flush(00:00:15)
+2016-09-25 23:13:53.2015 Trace Flushing all targets...
+2016-09-25 23:13:53.2165 Trace ForEachItemInParallel() 0 items
+2016-09-25 23:13:53.2165 Debug Closing logging configuration...
+2016-09-25 23:13:53.2165 Debug Finished closing logging configuration.
+2016-09-25 23:13:53.2275 Info Logger has been shut down.
+2016-09-25 23:16:03.2896 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 23:16:03.2896 Debug Trace =>
+2016-09-25 23:16:03.2896 Debug Debug =>
+2016-09-25 23:16:03.2896 Debug Info =>
+2016-09-25 23:16:03.2896 Debug Warn =>
+2016-09-25 23:16:03.3046 Debug Error =>
+2016-09-25 23:16:03.3046 Debug Fatal =>
+2016-09-25 23:39:09.1566 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 23:39:09.1566 Debug Trace =>
+2016-09-25 23:39:09.1566 Debug Debug =>
+2016-09-25 23:39:09.1646 Debug Info =>
+2016-09-25 23:39:09.1646 Debug Warn =>
+2016-09-25 23:39:09.1646 Debug Error =>
+2016-09-25 23:39:09.1646 Debug Fatal =>
+2016-09-25 23:58:20.6793 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 23:58:20.6793 Debug Trace =>
+2016-09-25 23:58:20.6793 Debug Debug =>
+2016-09-25 23:58:20.6793 Debug Info =>
+2016-09-25 23:58:20.6793 Debug Warn =>
+2016-09-25 23:58:20.6793 Debug Error =>
+2016-09-25 23:58:20.6943 Debug Fatal =>
+2016-09-25 23:58:59.0055 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-25 23:58:59.0085 Debug Trace =>
+2016-09-25 23:58:59.0085 Debug Debug =>
+2016-09-25 23:58:59.0085 Debug Info =>
+2016-09-25 23:58:59.0085 Debug Warn =>
+2016-09-25 23:58:59.0085 Debug Error =>
+2016-09-25 23:58:59.0225 Debug Fatal =>
+2016-09-26 00:14:49.9886 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-26 00:14:49.9906 Debug Trace =>
+2016-09-26 00:14:49.9906 Debug Debug =>
+2016-09-26 00:14:49.9906 Debug Info =>
+2016-09-26 00:14:49.9906 Debug Warn =>
+2016-09-26 00:14:49.9906 Debug Error =>
+2016-09-26 00:14:49.9906 Debug Fatal =>
+2016-09-26 00:32:12.8275 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-26 00:32:12.8275 Debug Trace =>
+2016-09-26 00:32:12.8275 Debug Debug =>
+2016-09-26 00:32:12.8365 Debug Info =>
+2016-09-26 00:32:12.8365 Debug Warn =>
+2016-09-26 00:32:12.8365 Debug Error =>
+2016-09-26 00:32:12.8365 Debug Fatal =>
+2016-09-26 00:44:26.8922 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-26 00:44:26.8922 Debug Trace =>
+2016-09-26 00:44:26.8977 Debug Debug =>
+2016-09-26 00:44:26.8977 Debug Info =>
+2016-09-26 00:44:26.8977 Debug Warn =>
+2016-09-26 00:44:26.8977 Debug Error =>
+2016-09-26 00:44:26.8977 Debug Fatal =>
+2016-09-26 00:46:37.0111 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-26 00:46:37.0111 Debug Trace =>
+2016-09-26 00:46:37.0111 Debug Debug =>
+2016-09-26 00:46:37.0221 Debug Info =>
+2016-09-26 00:46:37.0221 Debug Warn =>
+2016-09-26 00:46:37.0221 Debug Error =>
+2016-09-26 00:46:37.0221 Debug Fatal =>
+2016-09-26 00:46:38.7447 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-26 00:46:38.7447 Debug Trace =>
+2016-09-26 00:46:38.7447 Debug Debug =>
+2016-09-26 00:46:38.7447 Debug Info =>
+2016-09-26 00:46:38.7587 Debug Warn =>
+2016-09-26 00:46:38.7587 Debug Error =>
+2016-09-26 00:46:38.7587 Debug Fatal =>
+2016-09-26 00:46:57.7847 Info Shutting down logging...
+2016-09-26 00:46:57.7887 Info Stopping file watching for path 'C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation' filter 'NLog.config'
+2016-09-26 00:46:57.7887 Info Closing old configuration.
+2016-09-26 00:46:57.7887 Trace LogFactory.Flush(00:00:15)
+2016-09-26 00:46:57.7887 Trace Flushing all targets...
+2016-09-26 00:46:57.7887 Trace ForEachItemInParallel() 0 items
+2016-09-26 00:46:57.8047 Debug Closing logging configuration...
+2016-09-26 00:46:57.8047 Debug Finished closing logging configuration.
+2016-09-26 00:46:57.8047 Info Logger has been shut down.
+2016-09-26 00:47:07.2739 Info Shutting down logging...
+2016-09-26 00:47:07.2739 Info Stopping file watching for path 'C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation' filter 'NLog.config'
+2016-09-26 00:47:07.2979 Info Closing old configuration.
+2016-09-26 00:47:07.3109 Trace LogFactory.Flush(00:00:15)
+2016-09-26 00:47:07.3109 Trace Flushing all targets...
+2016-09-26 00:47:07.3224 Trace ForEachItemInParallel() 0 items
+2016-09-26 00:47:07.3224 Debug Closing logging configuration...
+2016-09-26 00:47:07.3224 Debug Finished closing logging configuration.
+2016-09-26 00:47:07.3339 Info Logger has been shut down.
+2016-09-26 00:50:19.2871 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-26 00:50:19.2871 Debug Trace =>
+2016-09-26 00:50:19.2871 Debug Debug =>
+2016-09-26 00:50:19.2871 Debug Info =>
+2016-09-26 00:50:19.2871 Debug Warn =>
+2016-09-26 00:50:19.2871 Debug Error =>
+2016-09-26 00:50:19.3041 Debug Fatal =>
+2016-09-26 00:50:37.7257 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-26 00:50:37.7257 Debug Trace =>
+2016-09-26 00:50:37.7257 Debug Debug =>
+2016-09-26 00:50:37.7257 Debug Info =>
+2016-09-26 00:50:37.7257 Debug Warn =>
+2016-09-26 00:50:37.7407 Debug Error =>
+2016-09-26 00:50:37.7407 Debug Fatal =>
+2016-09-26 00:50:49.5119 Info Shutting down logging...
+2016-09-26 00:50:49.5119 Info Stopping file watching for path 'C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation' filter 'NLog.config'
+2016-09-26 00:50:49.5119 Info Closing old configuration.
+2016-09-26 00:50:49.5219 Trace LogFactory.Flush(00:00:15)
+2016-09-26 00:50:49.5219 Trace Flushing all targets...
+2016-09-26 00:50:49.5219 Trace ForEachItemInParallel() 0 items
+2016-09-26 00:50:49.5219 Debug Closing logging configuration...
+2016-09-26 00:50:49.5219 Debug Finished closing logging configuration.
+2016-09-26 00:50:49.5379 Info Logger has been shut down.
+2016-09-26 01:19:29.1623 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-26 01:19:29.1623 Debug Trace =>
+2016-09-26 01:19:29.1623 Debug Debug =>
+2016-09-26 01:19:29.1623 Debug Info =>
+2016-09-26 01:19:29.1623 Debug Warn =>
+2016-09-26 01:19:29.1803 Debug Error =>
+2016-09-26 01:19:29.1803 Debug Fatal =>
+2016-09-26 01:19:56.2658 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-26 01:19:56.2658 Debug Trace =>
+2016-09-26 01:19:56.2938 Debug Debug =>
+2016-09-26 01:19:56.2938 Debug Info =>
+2016-09-26 01:19:56.2938 Debug Warn =>
+2016-09-26 01:19:56.3038 Debug Error =>
+2016-09-26 01:19:56.3038 Debug Fatal =>
+2016-09-26 01:20:05.9552 Info Shutting down logging...
+2016-09-26 01:20:05.9652 Info Stopping file watching for path 'C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation' filter 'NLog.config'
+2016-09-26 01:20:05.9827 Info Closing old configuration.
+2016-09-26 01:20:16.4971 Trace LogFactory.Flush(00:00:15)
+2016-09-26 01:20:16.4971 Trace Flushing all targets...
+2016-09-26 01:20:17.7451 Trace ForEachItemInParallel() 0 items
+2016-09-26 01:20:17.7451 Debug Closing logging configuration...
+2016-09-26 01:20:17.7451 Debug Finished closing logging configuration.
+2016-09-26 01:20:17.7571 Info Logger has been shut down.
+2016-09-26 02:16:37.1428 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-26 02:16:37.1428 Debug Trace =>
+2016-09-26 02:16:37.1488 Debug Debug =>
+2016-09-26 02:16:37.1488 Debug Info =>
+2016-09-26 02:16:37.1488 Debug Warn =>
+2016-09-26 02:16:37.1488 Debug Error =>
+2016-09-26 02:16:37.1488 Debug Fatal =>
+2016-09-26 02:21:38.1420 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-26 02:21:38.1420 Debug Trace =>
+2016-09-26 02:21:38.1475 Debug Debug =>
+2016-09-26 02:21:38.1706 Debug Info =>
+2016-09-26 02:21:38.1706 Debug Warn =>
+2016-09-26 02:21:38.1706 Debug Error =>
+2016-09-26 02:21:38.1776 Debug Fatal =>
+2016-09-26 02:22:11.5264 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-26 02:22:11.5264 Debug Trace =>
+2016-09-26 02:22:11.5264 Debug Debug =>
+2016-09-26 02:22:11.5264 Debug Info =>
+2016-09-26 02:22:11.5369 Debug Warn =>
+2016-09-26 02:22:11.5369 Debug Error =>
+2016-09-26 02:22:11.5369 Debug Fatal =>
+2016-09-26 02:31:54.3137 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-26 02:31:54.3137 Debug Trace =>
+2016-09-26 02:31:54.3197 Debug Debug =>
+2016-09-26 02:31:54.3197 Debug Info =>
+2016-09-26 02:31:54.3197 Debug Warn =>
+2016-09-26 02:31:54.3197 Debug Error =>
+2016-09-26 02:31:54.3197 Debug Fatal =>
+2016-09-26 02:32:29.3848 Info Shutting down logging...
+2016-09-26 02:32:29.3848 Info Stopping file watching for path 'C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation' filter 'NLog.config'
+2016-09-26 02:32:29.3848 Info Closing old configuration.
+2016-09-26 02:32:29.3848 Trace LogFactory.Flush(00:00:15)
+2016-09-26 02:32:29.3848 Trace Flushing all targets...
+2016-09-26 02:32:29.3998 Trace ForEachItemInParallel() 0 items
+2016-09-26 02:32:29.3998 Debug Closing logging configuration...
+2016-09-26 02:32:29.3998 Debug Finished closing logging configuration.
+2016-09-26 02:32:29.3998 Info Logger has been shut down.
+2016-09-26 02:47:17.3550 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-26 02:47:17.3550 Debug Trace =>
+2016-09-26 02:47:17.3550 Debug Debug =>
+2016-09-26 02:47:17.3550 Debug Info =>
+2016-09-26 02:47:17.3665 Debug Warn =>
+2016-09-26 02:47:17.3665 Debug Error =>
+2016-09-26 02:47:17.3665 Debug Fatal =>
+2016-09-26 02:47:27.8315 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-26 02:47:27.8315 Debug Trace =>
+2016-09-26 02:47:27.8365 Debug Debug =>
+2016-09-26 02:47:27.8365 Debug Info =>
+2016-09-26 02:47:27.8365 Debug Warn =>
+2016-09-26 02:47:27.8365 Debug Error =>
+2016-09-26 02:47:27.8365 Debug Fatal =>
+2016-09-26 02:47:50.3502 Info Shutting down logging...
+2016-09-26 02:47:50.3502 Info Stopping file watching for path 'C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation' filter 'NLog.config'
+2016-09-26 02:47:50.3502 Info Closing old configuration.
+2016-09-26 02:47:50.3502 Trace LogFactory.Flush(00:00:15)
+2016-09-26 02:47:50.3502 Trace Flushing all targets...
+2016-09-26 02:47:50.3672 Trace ForEachItemInParallel() 0 items
+2016-09-26 02:47:50.3672 Debug Closing logging configuration...
+2016-09-26 02:47:50.3672 Debug Finished closing logging configuration.
+2016-09-26 02:47:50.3672 Info Logger has been shut down.
+2016-09-26 02:47:51.0626 Info Shutting down logging...
+2016-09-26 02:47:51.0626 Info Stopping file watching for path 'C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation' filter 'NLog.config'
+2016-09-26 02:47:51.0711 Info Closing old configuration.
+2016-09-26 02:47:51.0711 Trace LogFactory.Flush(00:00:15)
+2016-09-26 02:47:51.0711 Trace Flushing all targets...
+2016-09-26 02:47:51.0711 Trace ForEachItemInParallel() 0 items
+2016-09-26 02:47:51.0856 Debug Closing logging configuration...
+2016-09-26 02:47:51.0856 Debug Finished closing logging configuration.
+2016-09-26 02:47:51.0856 Info Logger has been shut down.
+2016-09-26 02:50:26.0682 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-26 02:50:26.0682 Debug Trace =>
+2016-09-26 02:50:26.0682 Debug Debug =>
+2016-09-26 02:50:26.0682 Debug Info =>
+2016-09-26 02:50:26.0682 Debug Warn =>
+2016-09-26 02:50:26.0682 Debug Error =>
+2016-09-26 02:50:26.0682 Debug Fatal =>
+2016-09-26 02:50:36.4600 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-26 02:50:36.4600 Debug Trace =>
+2016-09-26 02:50:36.4600 Debug Debug =>
+2016-09-26 02:50:36.4600 Debug Info =>
+2016-09-26 02:50:36.4600 Debug Warn =>
+2016-09-26 02:50:36.4600 Debug Error =>
+2016-09-26 02:50:36.4755 Debug Fatal =>
+2016-09-26 02:51:15.5795 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-26 02:51:15.5795 Debug Trace =>
+2016-09-26 02:51:15.5845 Debug Debug =>
+2016-09-26 02:51:15.5845 Debug Info =>
+2016-09-26 02:51:15.5845 Debug Warn =>
+2016-09-26 02:51:15.5845 Debug Error =>
+2016-09-26 02:51:15.5845 Debug Fatal =>
+2016-09-26 02:51:21.3950 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-26 02:51:21.3980 Debug Trace =>
+2016-09-26 02:51:21.3980 Debug Debug =>
+2016-09-26 02:51:21.3980 Debug Info =>
+2016-09-26 02:51:21.3980 Debug Warn =>
+2016-09-26 02:51:21.3980 Debug Error =>
+2016-09-26 02:51:21.3980 Debug Fatal =>
+2016-09-26 02:51:45.9696 Info Shutting down logging...
+2016-09-26 02:51:45.9816 Info Stopping file watching for path 'C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation' filter 'NLog.config'
+2016-09-26 02:51:45.9917 Info Closing old configuration.
+2016-09-26 02:51:46.0057 Trace LogFactory.Flush(00:00:15)
+2016-09-26 02:51:46.0057 Trace Flushing all targets...
+2016-09-26 02:51:46.0057 Trace ForEachItemInParallel() 0 items
+2016-09-26 02:51:46.0257 Debug Closing logging configuration...
+2016-09-26 02:51:46.0257 Debug Finished closing logging configuration.
+2016-09-26 02:51:46.0257 Info Logger has been shut down.
+2016-09-26 02:51:46.2077 Info Shutting down logging...
+2016-09-26 02:51:46.2117 Info Stopping file watching for path 'C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation' filter 'NLog.config'
+2016-09-26 02:51:46.2117 Info Closing old configuration.
+2016-09-26 02:51:46.2117 Trace LogFactory.Flush(00:00:15)
+2016-09-26 02:51:46.2117 Trace Flushing all targets...
+2016-09-26 02:51:46.2117 Trace ForEachItemInParallel() 0 items
+2016-09-26 02:51:46.2267 Debug Closing logging configuration...
+2016-09-26 02:51:46.2267 Debug Finished closing logging configuration.
+2016-09-26 02:51:46.2267 Info Logger has been shut down.
+2016-09-26 02:52:07.0946 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-26 02:52:07.0946 Debug Trace =>
+2016-09-26 02:52:07.1006 Debug Debug =>
+2016-09-26 02:52:07.1006 Debug Info =>
+2016-09-26 02:52:07.1006 Debug Warn =>
+2016-09-26 02:52:07.1006 Debug Error =>
+2016-09-26 02:52:07.1006 Debug Fatal =>
+2016-09-26 02:53:38.5541 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-26 02:53:38.5541 Debug Trace =>
+2016-09-26 02:53:38.5541 Debug Debug =>
+2016-09-26 02:53:38.5841 Debug Info =>
+2016-09-26 02:53:38.5841 Debug Warn =>
+2016-09-26 02:53:38.5841 Debug Error =>
+2016-09-26 02:53:38.5841 Debug Fatal =>
+2016-09-26 02:54:02.9154 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-26 02:54:02.9154 Debug Trace =>
+2016-09-26 02:54:02.9154 Debug Debug =>
+2016-09-26 02:54:02.9154 Debug Info =>
+2016-09-26 02:54:02.9154 Debug Warn =>
+2016-09-26 02:54:02.9274 Debug Error =>
+2016-09-26 02:54:02.9274 Debug Fatal =>
+2016-09-26 02:54:47.2830 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-26 02:54:47.2830 Debug Trace =>
+2016-09-26 02:54:47.2890 Debug Debug =>
+2016-09-26 02:54:47.2890 Debug Info =>
+2016-09-26 02:54:47.2890 Debug Warn =>
+2016-09-26 02:54:47.2890 Debug Error =>
+2016-09-26 02:54:47.2890 Debug Fatal =>
+2016-09-26 02:55:14.3562 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-26 02:55:14.3562 Debug Trace =>
+2016-09-26 02:55:14.3562 Debug Debug =>
+2016-09-26 02:55:14.3562 Debug Info =>
+2016-09-26 02:55:14.3662 Debug Warn =>
+2016-09-26 02:55:14.3662 Debug Error =>
+2016-09-26 02:55:14.3662 Debug Fatal =>
+2016-09-26 02:55:17.3774 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-26 02:55:17.3774 Debug Trace =>
+2016-09-26 02:55:17.3824 Debug Debug =>
+2016-09-26 02:55:17.3824 Debug Info =>
+2016-09-26 02:55:17.3824 Debug Warn =>
+2016-09-26 02:55:17.3824 Debug Error =>
+2016-09-26 02:55:17.3824 Debug Fatal =>
+2016-09-26 02:55:21.8046 Info Shutting down logging...
+2016-09-26 02:55:21.8046 Info Stopping file watching for path 'C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation' filter 'NLog.config'
+2016-09-26 02:55:21.8046 Info Closing old configuration.
+2016-09-26 02:55:21.8046 Trace LogFactory.Flush(00:00:15)
+2016-09-26 02:55:21.8206 Trace Flushing all targets...
+2016-09-26 02:55:21.8206 Trace ForEachItemInParallel() 0 items
+2016-09-26 02:55:21.8206 Debug Closing logging configuration...
+2016-09-26 02:55:21.8342 Debug Finished closing logging configuration.
+2016-09-26 02:55:21.8342 Info Logger has been shut down.
+2016-09-26 02:55:44.7453 Info Shutting down logging...
+2016-09-26 02:55:44.7563 Info Stopping file watching for path 'C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation' filter 'NLog.config'
+2016-09-26 02:55:44.7563 Info Closing old configuration.
+2016-09-26 02:55:44.7823 Trace LogFactory.Flush(00:00:15)
+2016-09-26 02:55:44.7823 Trace Flushing all targets...
+2016-09-26 02:55:44.7963 Trace ForEachItemInParallel() 0 items
+2016-09-26 02:55:44.8043 Debug Closing logging configuration...
+2016-09-26 02:55:44.8043 Debug Finished closing logging configuration.
+2016-09-26 02:55:44.8043 Info Logger has been shut down.
+2016-09-26 02:57:41.8798 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-26 02:57:41.8833 Debug Trace =>
+2016-09-26 02:57:41.8833 Debug Debug =>
+2016-09-26 02:57:41.8833 Debug Info =>
+2016-09-26 02:57:41.8833 Debug Warn =>
+2016-09-26 02:57:41.8968 Debug Error =>
+2016-09-26 02:57:41.8968 Debug Fatal =>
+2016-09-26 02:57:44.3177 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-26 02:57:44.3207 Debug Trace =>
+2016-09-26 02:57:44.3207 Debug Debug =>
+2016-09-26 02:57:44.3207 Debug Info =>
+2016-09-26 02:57:44.3207 Debug Warn =>
+2016-09-26 02:57:44.3207 Debug Error =>
+2016-09-26 02:57:44.3207 Debug Fatal =>
+2016-09-26 03:04:26.9199 Debug Targets for ServiceStation.Controllers.DefaultController by level:
+2016-09-26 03:04:26.9199 Debug Trace =>
+2016-09-26 03:04:26.9199 Debug Debug =>
+2016-09-26 03:04:26.9279 Debug Info =>
+2016-09-26 03:04:26.9279 Debug Warn =>
+2016-09-26 03:04:26.9279 Debug Error =>
+2016-09-26 03:04:26.9279 Debug Fatal =>

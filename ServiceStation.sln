@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceStation.Tests", "Ser
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceStation.Domain", "ServiceStation.Domain\ServiceStation.Domain.csproj", "{2BD0ED95-DAF8-46C8-ADDA-C035C356C653}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLScript", "SQLScript", "{1DC458D8-4796-42AC-A1C3-26B9BC9E8FF1}"
+	ProjectSection(SolutionItems) = preProject
+		ServiceStationSQL.sql = ServiceStationSQL.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
