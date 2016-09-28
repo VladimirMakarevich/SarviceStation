@@ -60,6 +60,14 @@
     <Compile Include="Migrations\201609252330326_Rebuild_db.Designer.cs">
       <DependentUpon>201609252330326_Rebuild_db.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201609271356272_models.cs" />
+    <Compile Include="Migrations\201609271356272_models.Designer.cs">
+      <DependentUpon>201609271356272_models.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201609271410282_model.cs" />
+    <Compile Include="Migrations\201609271410282_model.Designer.cs">
+      <DependentUpon>201609271410282_model.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\ClientCard.cs" />
     <Compile Include="Model\Orders.cs" />
@@ -73,6 +81,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201609252330326_Rebuild_db.resx">
       <DependentUpon>201609252330326_Rebuild_db.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609271356272_models.resx">
+      <DependentUpon>201609271356272_models.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609271410282_model.resx">
+      <DependentUpon>201609271410282_model.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -52,6 +52,10 @@
       <HintPath>..\packages\AutoMapper.5.1.1\lib\net45\AutoMapper.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Elmah, Version=1.2.14706.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\elmah.corelibrary.1.2.2\lib\Elmah.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
       <Private>True</Private>
@@ -105,8 +109,8 @@
       <HintPath>..\packages\NLog.4.3.9\lib\net45\NLog.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="NLog.Extended, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
-      <HintPath>..\packages\NLog.Extended.4.0.0.1\lib\net45-full\NLog.Extended.dll</HintPath>
+    <Reference Include="NLog.Web, Version=0.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.Web.4.2.1\lib\net35\NLog.Web.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.DynamicData" />
@@ -158,6 +162,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Readme\Elmah.SqlServer.sql" />
+    <Content Include="App_Readme\Elmah.SqlServer.txt" />
+    <Content Include="App_Readme\Elmah.txt" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -220,19 +227,27 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\MappingConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Authentication\AuthoProvider.cs" />
+    <Compile Include="Authentication\IAuthProvider.cs" />
     <Compile Include="Controllers\CarController.cs" />
     <Compile Include="Controllers\ClientController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\OrderController.cs" />
+    <Compile Include="Controllers\SettingsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Infrastructure\NinjectControllerFactory.cs" />
+    <Compile Include="IsBoolValidAttribute.cs" />
     <Compile Include="Models\CarViewModel.cs" />
     <Compile Include="Models\CheckViewModel.cs" />
     <Compile Include="Models\ClientCardViewModel.cs" />
+    <Compile Include="Models\ContactViewModel.cs" />
     <Compile Include="Models\ListView.cs" />
+    <Compile Include="Models\LoginModel.cs" />
     <Compile Include="Models\OrderViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -278,22 +293,41 @@
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Scripts\jquery-3.1.0.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.0.min.map" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Shared\_TopMenu.cshtml" />
-    <Content Include="Views\Shared\_Sidebar.cshtml" />
-    <Content Include="Views\Client\List.cshtml" />
+    <Content Include="Views\Client\List_Client.cshtml" />
     <Content Include="Views\Order\New_Order.cshtml" />
-    <Content Include="Views\Order\List.cshtml" />
-    <Content Include="Views\Car\List.cshtml" />
+    <Content Include="Views\Order\List_Order.cshtml" />
+    <Content Include="Views\Car\List_Car.cshtml" />
     <Content Include="Views\Client\New_Client.cshtml" />
+    <Content Include="Views\Client\Delete_Client.cshtml" />
+    <Content Include="Views\Client\Details_Client.cshtml" />
+    <Content Include="Views\Client\Modified_Client.cshtml" />
+    <Content Include="Views\Car\Delete_Car.cshtml" />
+    <Content Include="Views\Car\Details_Car.cshtml" />
+    <Content Include="Views\Car\Modified_Car.cshtml" />
+    <Content Include="Views\Car\New_Car.cshtml" />
+    <Content Include="Views\Order\_Check_Order.cshtml" />
+    <Content Include="Views\Order\Delete_Order.cshtml" />
+    <Content Include="Views\Order\Details_Order.cshtml" />
+    <Content Include="Views\Order\Modified_Order.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Shared\_Sidebar.cshtml" />
+    <Content Include="Views\Shared\_TopMenu.cshtml" />
+    <Content Include="Views\Error\Index.cshtml" />
+    <Content Include="Views\Error\NotFound.cshtml" />
+    <Content Include="Views\Settings\Index.cshtml" />
+    <Content Include="Views\Settings\Contact.cshtml" />
+    <Content Include="Views\Login\Login.cshtml" />
+    <Content Include="Views\Home\_Check_Order.cshtml" />
     <Content Include="Views\Home\_Check_Client.cshtml" />
     <Content Include="Views\Home\_Check_Car.cshtml" />
+    <Content Include="Views\Client\Result_Client.cshtml" />
+    <Content Include="Views\Car\Result_Car.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

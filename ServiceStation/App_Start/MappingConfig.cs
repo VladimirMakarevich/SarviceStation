@@ -15,6 +15,8 @@ namespace ServiceStation
             {
                 cfg.CreateMap<ClientCard, ClientCardViewModel>().ReverseMap();
                 cfg.CreateMap<ClientCard, CheckClientViewModel>().ReverseMap();
+                cfg.CreateMap<ClientCard, ClientCardModifeidViewModel>().ReverseMap();
+
             });
             MapperConfigOrder = new MapperConfiguration(cfg =>
             {
@@ -23,6 +25,7 @@ namespace ServiceStation
             MapperConfigCar = new MapperConfiguration(cfg =>
             {
                 cfg.CreateMap<RelatedCars, CarViewModel>().ReverseMap();
+                cfg.CreateMap<RelatedCars, CheckCarViewModel>().ReverseMap();
             });
         }
     }

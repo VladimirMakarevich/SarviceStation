@@ -36,6 +36,60 @@ namespace ServiceStation.Domain.Concrete
                         ex.Message, ex.Source, ex.StackTrace, ex.InnerException);
                     return src;
                 }
+                finally
+                {
+                    contextDb.Dispose();
+                }
+            }
+            return null;
+        }
+        #endregion
+
+        #region ModefiedClientCardAsync
+        public async Task<string> ModifeidClientCardAsync(ClientCard model)
+        {
+            using (var contextDb = db.Database.BeginTransaction())
+            {
+                try
+                {
+                    db.Entry(model).State = EntityState.Modified;
+                    await db.SaveChangesAsync();
+
+                    contextDb.Commit();
+                }
+                catch (Exception ex)
+                {
+                    contextDb.Rollback();
+                    string src = String.Format("error when adding a new entry: Message: {0}, \n Source: {1}," +
+                        "\n Stack Trace: {2}, \n Inner Exception: {3}.",
+                        ex.Message, ex.Source, ex.StackTrace, ex.InnerException);
+                    return src;
+                }
+            }
+            return null;
+        }
+        #endregion
+
+        #region DeleteClientCardAsync
+        public async Task<string> DeleteClientCardAsync(ClientCard model)
+        {
+            using (var contextDb = db.Database.BeginTransaction())
+            {
+                try
+                {
+                    db.ClientCardsi.Remove(model);
+                    await db.SaveChangesAsync();
+
+                    contextDb.Commit();
+                }
+                catch (Exception ex)
+                {
+                    contextDb.Rollback();
+                    string src = String.Format("error when adding a new entry: Message: {0}, \n Source: {1}," +
+                        "\n Stack Trace: {2}, \n Inner Exception: {3}.",
+                        ex.Message, ex.Source, ex.StackTrace, ex.InnerException);
+                    return src;
+                }
             }
             return null;
         }
@@ -46,9 +100,9 @@ namespace ServiceStation.Domain.Concrete
         {
             try
             {
-                var result = await db.ClientCardsi.OrderBy(m => m.ClientId).FirstOrDefaultAsync(m => m.FirstName == model.FirstName.Trim() &&
+                var result = await db.ClientCardsi.FirstOrDefaultAsync(m => m.FirstName == model.FirstName.Trim() &&
                 m.LastName == model.LastName.Trim() || m.Phone == model.Phone.Trim() || m.Email == model.Email.Trim());
-                if (result!=null)
+                if (result != null)
                 {
                     return result;
                 }
@@ -60,5 +114,6 @@ namespace ServiceStation.Domain.Concrete
             return null;
         }
         #endregion
+
     }
 }

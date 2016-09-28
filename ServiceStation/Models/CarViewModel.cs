@@ -4,22 +4,24 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
 
 namespace ServiceStation.Models
 {
     #region Car Single View
     public class CarViewModel
     {
-        [Required]
+        [HiddenInput]
         public int CarId { get; set; }
         [Required]
         public string Make { get; set; }
         [Required]
-        public string Model { get; set; }
+        public string Models { get; set; }
         [Required]
         public string Year { get; set; }
         [Required]
         public string VIN { get; set; }
+        public virtual ICollection<Orders> RelatedOrder { get; set; }
     }
     #endregion
 
@@ -31,19 +33,16 @@ namespace ServiceStation.Models
     }
     #endregion
 
-    #region Car Checked 
-    public class CarCheckedViewModel
+    #region Check Car
+    public class CheckCarViewModel
     {
-        public int CarId { get; set; }
         [Required]
         public string Make { get; set; }
         [Required]
-        public string Model { get; set; }
+        public string Models { get; set; }
         [Required]
         public string Year { get; set; }
-        [Required]
-        public string VIN { get; set; }
-        public Orders OrdersDate { get; set; }
+        public DateTime Date { get; set; }
     }
     #endregion
 }

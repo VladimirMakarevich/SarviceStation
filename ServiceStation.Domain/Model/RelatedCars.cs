@@ -12,7 +12,7 @@ namespace ServiceStation.Domain.Model
         [Required]
         public string Make { get; set; }
         [Required]
-        public string Model { get; set; }
+        public string Models { get; set; }
         [Required]
         public string Year { get; set; }
         [Required]

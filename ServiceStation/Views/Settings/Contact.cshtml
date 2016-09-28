@@ -1,0 +1,75 @@
+﻿@model ServiceStation.Models.ContactViewModel
+@{
+    ViewBag.Title = "Contact";
+    ViewBag.Text = "Service Station";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Contact Section -->
+<div class="container-fluid">
+    <!-- Page Heading -->
+    <div class="col-md-8">
+        <h1 class="page-header">
+            @ViewBag.Message
+            <a style="color:red">@ViewBag.MessageError</a>
+        </h1>
+
+        <!-- Contact Form -->
+        <div class="row">
+            <div class="form-group">
+                @using (Html.BeginForm("Contact", "Settings", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary("", new { @style = "color:red;" })
+                    <div class="validation-summary-error" data-valmsg-summary="true">
+                        <div class="form-group">
+                            <!-- Name -->
+                            <div class="form-group">
+                                @Html.TextBoxFor(m => m.Name, new { @class = "form-control", @placeholder = "Name", @pattern = ".{3,100}" })
+                            </div>
+                            <!-- Email -->
+                            <div class="form-group">
+                                @Html.TextBoxFor(m => m.Email, new { @class = "form-control", @placeholder = "Email", @pattern = ".{5,100}" })
+                            </div>
+
+                            <!-- Message -->
+                            <div class="form-group">
+                                @Html.TextAreaFor(m => m.Message, new { @class = "form-control", @style = "height: 84px;", @placeholder = "Message" })
+                            </div>
+
+                        </div>
+                        <!-- Inform Tip -->
+                        <div class="form-tip pt-20">
+                            <i class="fa fa-info-circle"></i> All the fields are required
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label>Check?</label>
+                            @Html.CheckBoxFor(m => m.Check)
+                        </div>
+                        <!-- Send Button -->
+                        <div>
+                            <button type="submit" value="Submit" class="btn btn-primary btn-sm"> Submit Message</button>
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- End Contact Section -->
+@section scripts {
+    <script>
+        jQuery.validator.addMethod("isvalidbool", function (value, element, param) {
+            return element.checked;
+        });
+        jQuery.validator.unobtrusive.adapters.addBool("isvalidbood");
+    </script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+}

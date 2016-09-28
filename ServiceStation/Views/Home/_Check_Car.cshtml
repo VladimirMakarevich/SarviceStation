@@ -1,1 +1,31 @@
-﻿
+﻿@model ServiceStation.Models.CheckCarViewModel
+
+
+
+@using (Html.BeginForm("Result_Car", "Car", FormMethod.Post, new { }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="validation-summary-error" data-valmsg-summary="true">
+        <div class="form-group">
+            @Html.LabelFor(m => m.Make)*
+            @Html.TextBoxFor(m => m.Make, new { @class = "form-control", @placeholder = "make*" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Models)*
+            @Html.TextBoxFor(m => m.Models, new { @class = "form-control", @placeholder = "model*" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Year)*
+            @Html.TextBoxFor(m => m.Year, new { @class = "form-control", @placeholder = "year" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Date)
+            @Html.TextBoxFor(m => m.Date, new { @class = "form-control", @placeholder = "date" })
+        </div>
+    </div>
+    <p>
+        <button type="submit" value="Submit" class="btn btn-primary"> Check Car</button>
+    </p>
+
+}

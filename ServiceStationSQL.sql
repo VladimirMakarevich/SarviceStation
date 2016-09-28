@@ -1,7 +1,7 @@
-﻿
-USE master
+﻿USE [master]
 
 CREATE DATABASE [ServiceStation]
+
 USE [ServiceStation]
 
 CREATE SCHEMA [logger]

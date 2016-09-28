@@ -1,13 +1,10 @@
-﻿using NLog;
-using ServiceStation.Domain.Abstract;
+﻿using ServiceStation.Domain.Abstract;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace ServiceStation.Controllers
 {
+    [Authorize]
     public class HomeController : DefaultController
     {
         public HomeController(IRepository repository)
@@ -27,6 +24,11 @@ namespace ServiceStation.Controllers
             }
 
             return View();
+        }
+
+        public ActionResult BadAction()
+        {
+            throw new Exception("You forgot to implement this ACTION!");
         }
     }
 }

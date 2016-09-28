@@ -1,4 +1,5 @@
 ﻿using Ninject;
+using ServiceStation.Authentication;
 using ServiceStation.Domain.Abstract;
 using ServiceStation.Domain.Concrete;
 using System;
@@ -27,6 +28,7 @@ namespace ServiceStation.Infrastructure
         private void AddBinding()
         {
             kernel.Bind<IRepository>().To<EfRepository>();
+            kernel.Bind<IAuthProvider>().To<AuthProvider>();
         }
     }
 }

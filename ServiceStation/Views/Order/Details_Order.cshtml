@@ -1,0 +1,112 @@
+﻿@model ServiceStation.Models.OrderViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <p>
+        <a href="@Url.Action("Modified_Order", "Order", new { id = Model.OrderId })" class="btn btn-info btn-sm"> Modified the order</a>
+        <a href="@Url.Action("List_Order", "Order")" class="btn btn-default btn-sm"> Back to list of order</a>
+        <a href="@Url.Action("New_Order", "Order", new { id = Model.OrderId })" class="btn btn-info btn-sm"> Add new Order</a>
+    </p>
+
+    <!-- Page Heading -->
+    <div class="row">
+        <div class="col-lg-12">
+            <div>
+                <h4>Client Card</h4>
+                <hr />
+                <dl class="dl-horizontal">
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Cars.Make)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Cars.Make)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Clients.FirstName)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Clients.FirstName)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Date)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Date)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.OrderAmount)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.OrderAmount)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Status)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Status)
+                    </dd>
+
+                </dl>
+            </div>
+        </div>
+        @*<div class="col-lg-12">
+            <div>
+                <h4>Related Car</h4>
+                <hr />
+                @foreach (var item in Model.Cars)
+                {
+                    <dl class="dl-horizontal">
+                        <dt>
+                        <dt>
+                            @item.Cars.Make
+                        </dt>
+                        <dd>
+                            @item.Cars.Models
+                        </dd>
+                        <dt>
+                            Year
+                        </dt>
+                        <dd>
+                            @item.Cars.Year
+                        </dd>
+                        <dt>
+                            VIN
+                        </dt>
+                        <dd>
+                            @item.Cars.VIN
+                        </dd>
+                        <dt>
+                            Date
+                        </dt>
+                        <dd>
+                            @item.Date
+                        </dd>
+                        <dt>
+                            Status
+                        </dt>
+                        <dd>
+                            @item.Status
+                        </dd>
+                    </dl>
+                    <a href="@Url.Action("Modified_Car", "Car", new { id = item.CarId })" class="btn btn-info btn-sm"> View car</a>
+
+                    <hr />
+
+                }
+
+            </div>
+        </div>*@
+    </div>
+</div>

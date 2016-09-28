@@ -8,6 +8,7 @@ using System.Web.Mvc;
 
 namespace ServiceStation.Controllers
 {
+    [Authorize]
     public abstract class DefaultController : Controller
     {
         protected internal IRepository _repository;

@@ -9,24 +9,57 @@ namespace ServiceStation.Models
     #region ClientCardViewModel
     public class ClientCardViewModel
     {
+        public int ClientId { get; set; }
         [Required]
+        [Display(Name = "First Name")]
         public string FirstName { get; set; }
         [Required]
+        [Display(Name = "Last Name")]
         public string LastName { get; set; }
 
         [Required(ErrorMessage = "MM.DD.YYYY")]
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:mm.dd.yyyy}", ApplyFormatInEditMode = true)]
+        [Display(Name = "Date of birth")]
         public DateTime DateOfBirth { get; set; }
         [Required]
+        [Display(Name = "Client address")]
         public string Address { get; set; }
         [Required]
+        [Display(Name = "Phone number")]
         public string Phone { get; set; }
         [EmailAddress]
         public string Email { get; set; }
 
-        //public IEnumerable<RelatedCars> ClientCars { get; set; }
-        //public IEnumerable<Orders> ClientOrder { get; set; }
+        public virtual ICollection<Orders> ClientOrder { get; set; }
+    }
+    #endregion
+
+    #region ClientCardModifeidViewModel
+    public class ClientCardModifeidViewModel
+    {
+        public int ClientId { get; set; }
+        [Required]
+        [Display(Name = "First Name")]
+        public string FirstName { get; set; }
+        [Required]
+        [Display(Name = "Last Name")]
+        public string LastName { get; set; }
+
+        [Required(ErrorMessage = "MM.DD.YYYY")]
+        [DisplayFormat(DataFormatString = "{mm.dd.yyyy}")]
+        [Display(Name = "Date of birth")]
+        public DateTime DateOfBirth { get; set; }
+        [Required]
+        [Display(Name = "Client address")]
+        public string Address { get; set; }
+        [Required]
+        [Display(Name = "Phone number")]
+        public string Phone { get; set; }
+        [EmailAddress]
+        public string Email { get; set; }
+
+        public virtual ICollection<Orders> ClientOrder { get; set; }
     }
     #endregion
 
@@ -99,11 +132,14 @@ namespace ServiceStation.Models
     }
     #endregion
 
-    #region
+    #region CheckClientViewModel
     public class CheckClientViewModel
     {
+        [Display(Name = "First Name")]
         public string FirstName { get; set; }
+        [Display(Name = "Last Name")]
         public string LastName { get; set; }
+        [Display(Name = "Phone number")]
         public string Phone { get; set; }
         [EmailAddress]
         public string Email { get; set; }

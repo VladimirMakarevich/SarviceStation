@@ -91,7 +91,7 @@ namespace ServiceStation.Domain.DAL
                 {
                     CarId = 1,
                     Make = "BMW",
-                    Model = "320i",
+                    Models = "320i",
                     Year = "2001",
                     VIN = "1HG CM826 33A 004352"
                 },
@@ -100,7 +100,7 @@ namespace ServiceStation.Domain.DAL
                 {
                     CarId = 2,
                     Make = "Volvo",
-                    Model = "v40",
+                    Models = "v40",
                     Year = "1998",
                     VIN = "1HG BH412 5H4 487239"
                 },
@@ -109,7 +109,7 @@ namespace ServiceStation.Domain.DAL
                 {
                     CarId = 3,
                     Make = "Mercedes-Benz",
-                    Model = "AMG GT",
+                    Models = "AMG GT",
                     Year = "2016",
                     VIN = "1HG FD189 45G 665189"
                 },
@@ -118,7 +118,7 @@ namespace ServiceStation.Domain.DAL
                 {
                     CarId = 4,
                     Make = "Yamaha",
-                    Model = "Sports Ride",
+                    Models = "Sports Ride",
                     Year = "2015",
                     VIN = "1HG FD756 4G5 456915"
                 },
@@ -127,7 +127,7 @@ namespace ServiceStation.Domain.DAL
                 {
                     CarId = 5,
                     Make = "Honda",
-                    Model = "Civic",
+                    Models = "Civic",
                     Year = "2001",
                     VIN = "1HG FGT54 GH5 122647"
                 },
@@ -136,7 +136,7 @@ namespace ServiceStation.Domain.DAL
                 {
                     CarId = 6,
                     Make = "Ford",
-                    Model = "Focus",
+                    Models = "Focus",
                     Year = "2012",
                     VIN = "1HG GHG54 JH7 648756"
                 }

@@ -1,12 +1,9 @@
 ﻿
-
 @{
-    ViewBag.TitleClient = "Check card of the client";
-    ViewBag.TitleCar = "Check the free car";
-    ViewBag.Subheading = "(customer)";
+    ViewBag.TitleClient = "Check client/car/order";
+    ViewBag.Subheading = "(search)";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
 <div class="container-fluid">
     <!-- Page Heading -->
     <div class="row">
@@ -15,25 +12,24 @@
                 @ViewBag.TitleClient
                 <small>@ViewBag.Subheading</small>
             </h1>
-            @Html.Partial("_Check_Client")
-        </div>
-    </div>
-    <!-- /.row -->
-</div>
-<!-- /.container-fluid -->
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Check Client</h2>
+                    @Html.Partial("_Check_Client")
+                </div>
+                
+                <div class="col-md-4">
+                    <h2>Check Car</h2>
+                    @Html.Partial("_Check_Car")
+                </div>
 
-
-<div class="container-fluid">
-    <!-- Page Heading -->
-    <div class="row">
-        <div class="col-lg-12">
-            <h1 class="page-header">
-                @ViewBag.TitleCar
-                <small>@ViewBag.Subheading</small>
-            </h1>
-            @Html.Partial("_Check_Car")
+                @*<div class="col-md-4">
+                    <h2>Check Order</h2>
+                    @Html.Partial("_Check_Order")
+                </div>*@
+            </div>
+            <!-- /.row -->
         </div>
+        <!-- /.container-fluid -->
     </div>
-    <!-- /.row -->
 </div>
-<!-- /.container-fluid -->

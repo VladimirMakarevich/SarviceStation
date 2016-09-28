@@ -1,27 +1,36 @@
 ﻿<div class="collapse navbar-collapse navbar-ex1-collapse">
     <ul class="nav navbar-nav side-nav">
         <li>
-            <a href="index.html"><i class="fa fa-fw fa-bar-chart-o"></i> Home</a>
+            <a href="@Url.Action("Index", "Home")"><i class="fa fa-fw fa-bar-chart-o"></i> Home</a>
         </li>
         <li>
-            <a href="#" data-toggle="collapse" data-target="#Order"><i class="fa fa-fw fa-edit"></i> Orders <i class="fa fa-fw fa-caret-down"></i></a>
+            <a href="@Url.Action("New_Order", "Order")"><i class="fa fa-fw fa-file"></i> New Order</a>
+        </li>
+        <li>
+            <a href="javascript:;" data-toggle="collapse" data-target="#Order"><i class="fa fa-fw fa-edit"></i> Orders <i class="fa fa-fw fa-caret-down"></i></a>
             <ul id="Order" class="collapse">
                 <li>
-                    <a href="#">Create new order</a>
+                    <a href="@Url.Action("New_Order", "Order")">Create New Order</a>
                 </li>
                 <li>
-                    <a href="#">List orders</a>
+                    <a href="@Url.Action("List_Order", "Order")">List Orders</a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Check_Order", "Order")">Search Orders</a>
                 </li>
             </ul>
         </li>
         <li>
-            <a href="javascript:;" data-toggle="collapse" data-target="#Client"><i class="fa fa-fw fa-table"></i> Client Card <i class="fa fa-fw fa-caret-down"></i></a>
+            <a href="javascript:;" data-toggle="collapse" data-target="#Client"><i class="fa fa-fw fa-table"></i> Client Cards <i class="fa fa-fw fa-caret-down"></i></a>
             <ul id="Client" class="collapse">
                 <li>
-                    <a href="#">New card of the client</a>
+                    <a href="@Url.Action("New_Client", "Client")">Create New Client Card</a>
                 </li>
                 <li>
-                    <a href="#">List of client cards</a>
+                    <a href="@Url.Action("List_Client", "Client")">List Clients Card</a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Check_Client", "Client")">Search Clients</a>
                 </li>
             </ul>
         </li>
@@ -29,18 +38,18 @@
             <a href="javascript:;" data-toggle="collapse" data-target="#Car"><i class="fa fa-fw fa-car"></i> Car <i class="fa fa-fw fa-caret-down"></i></a>
             <ul id="Car" class="collapse">
                 <li>
-                    <a href="#">Add new car</a>
+                    <a href="@Url.Action("New_Car", "Car")">Create New Car</a>
                 </li>
                 <li>
-                    <a href="#">List related car</a>
+                    <a href="@Url.Action("List_Car", "Car")">List Cars</a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Check_Car", "Car")">Search Cars</a>
                 </li>
             </ul>
         </li>
         <li>
-            <a href="blank-page.html"><i class="fa fa-fw fa-file"></i> Blank Page</a>
-        </li>
-        <li>
-            <a href="bootstrap-grid.html"><i class="fa fa-fw fa-wrench"></i> Settings</a>
+            <a href="@Url.Action("Index", "Settings")"><i class="fa fa-fw fa-wrench"></i> Settings</a>
         </li>
     </ul>
 </div>
