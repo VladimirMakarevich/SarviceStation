@@ -6,6 +6,9 @@ The basis of the connection string is as follows:
 
 <add name="ServiceDbContext" connectionString="Data Source=.\SQLEXPRESS;Initial Catalog=ServiceStation;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" providerName="System.Data.SqlClient" />
 
+IMPORTANT!
+login and password for an application: intetics/intetics
+
 As for dealing with errors and I used NLog and Elman, they just need to change the connection string to the database. 
 To create a database to NLog and ELMAH, run this ServiceStationSQL. 
 NLog connection string to find in the NLog.config file. ELMAH connection string to find in the Web.config
