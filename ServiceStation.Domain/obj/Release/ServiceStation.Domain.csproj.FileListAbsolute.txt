@@ -1,0 +1,14 @@
+C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation.Domain\bin\Release\ServiceStation.Domain.dll.config
+C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation.Domain\bin\Release\ServiceStation.Domain.dll
+C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation.Domain\bin\Release\ServiceStation.Domain.pdb
+C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation.Domain\bin\Release\EntityFramework.dll
+C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation.Domain\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation.Domain\bin\Release\EntityFramework.xml
+C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation.Domain\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation.Domain\obj\Release\ServiceStation.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation.Domain\obj\Release\ServiceStation.Domain.Migrations.Rebuild_db.resources
+C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation.Domain\obj\Release\ServiceStation.Domain.Migrations.models.resources
+C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation.Domain\obj\Release\ServiceStation.Domain.Migrations.model.resources
+C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation.Domain\obj\Release\ServiceStation.Domain.csproj.GenerateResource.Cache
+C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation.Domain\obj\Release\ServiceStation.Domain.dll
+C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation.Domain\obj\Release\ServiceStation.Domain.pdb

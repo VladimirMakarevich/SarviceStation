@@ -10,7 +10,7 @@ using System.Web.Mvc;
 
 namespace ServiceStation.Controllers
 {
-    [Authorize]
+    //[Authorize]
     public class CarController : DefaultController
     {
         int PageSize = 20;

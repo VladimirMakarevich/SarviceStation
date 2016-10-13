@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace ServiceStation.Controllers
 {
-    [Authorize]
+    //[Authorize]
     public class ErrorController : DefaultController
     {
         /// <summary>

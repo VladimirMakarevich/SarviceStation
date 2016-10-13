@@ -1,0 +1,48 @@
+﻿@model ServiceStation.Models.CarViewModel
+@{
+    ViewBag.Title = "Add a new car";
+    ViewBag.Subheading = "(new car)";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <!-- Page Heading -->
+    <div class="row">
+        <div class="col-md-8">
+            <h1 class="page-header">
+                @ViewBag.Title
+                <small>@ViewBag.Subheading</small>
+            </h1>
+            <p>
+                <a href="@Url.Action("List_Car", "Car")" class="btn btn-primary btn-sm"> Back to list of Car</a>
+
+                <button type="submit" value="Submit" class="btn btn-primary btn-sm"> Save</button>
+            </p>
+            @using (Html.BeginForm("New_Car", "Car", FormMethod.Post, new { }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary("", false)
+                <div class="validation-summary-error" data-valmsg-summary="true">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Make)
+                        @Html.TextBoxFor(m => m.Make, new { @class = "form-control", @placeholder = "make*" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Models)
+                        @Html.TextBoxFor(m => m.Models, new { @class = "form-control", @placeholder = "model*" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Year)
+                        @Html.TextBoxFor(m => m.Year, new { @class = "form-control", @placeholder = "year*" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.VIN)
+                        @Html.TextBoxFor(m => m.VIN, new { @class = "form-control", @placeholder = "vin*" })
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    <!-- /.row -->
+</div>
+<!-- /.container-fluid -->

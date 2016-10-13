@@ -259,7 +259,6 @@ C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\bin\roslyn\vbc
 C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\bin\roslyn\VBCSCompiler.exe
 C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\bin\NLog.config
-C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\bin\ServiceStation.dll.config
 C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\bin\ServiceStation.dll
 C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\bin\ServiceStation.pdb
 C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\bin\Antlr3.Runtime.dll
@@ -274,7 +273,6 @@ C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\bin\Microsoft.
 C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\bin\Microsoft.AI.WindowsServer.dll
 C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\bin\Microsoft.ApplicationInsights.dll
 C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\bin\Newtonsoft.Json.dll
 C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\bin\Ninject.dll
 C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\bin\NLog.dll
@@ -313,5 +311,7 @@ C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\obj\Debug\Serv
 C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\obj\Debug\ServiceStation.pdb
 C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\bin\Elmah.dll
 C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\bin\NLog.Web.dll
-C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\bin\System.Data.SqlServerCe.dll
 C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\bin\NLog.Web.xml
+C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\bin\ServiceStation.dll.config
+C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\bin\System.Data.SqlServerCe.dll

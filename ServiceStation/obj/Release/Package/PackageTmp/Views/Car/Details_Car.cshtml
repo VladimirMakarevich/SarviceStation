@@ -1,0 +1,103 @@
+﻿@model ServiceStation.Models.CarViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <p>
+        <a href="@Url.Action("Modified_Car", "Car", new { id = Model.CarId })" class="btn btn-info btn-sm"> Modified the car</a>
+        <a href="@Url.Action("List_Car", "Car")" class="btn btn-default btn-sm"> Back to list of car</a>
+        <a href="@Url.Action("New_Order", "Order", new { VIN = Model.VIN })" class="btn btn-info btn-sm"> Add Order for the car</a>
+    </p>
+
+    <!-- Page Heading -->
+    <div class="row">
+        <div class="col-lg-12">
+            <div>
+                <h4>Information about the car</h4>
+                <hr />
+                <dl class="dl-horizontal">
+                    <dt>
+                        @Html.DisplayNameFor(m => m.Make)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(m => m.Make)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(m => m.Models)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(m => m.Models)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(m => m.Year)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(m => m.Year)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(m => m.VIN)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(m => m.VIN)
+                    </dd>
+
+                </dl>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div>
+                <h4>Related clients</h4>
+                <hr />
+                @foreach (var item in Model.RelatedOrder)
+                {
+                    <dl class="dl-horizontal">
+                        <dt>
+                        <dt>
+                            Name
+                        </dt>
+                        <dd>
+                            @item.Clients.FirstName @item.Clients.LastName
+                        </dd>
+                        <dt>
+                            Phone
+                        </dt>
+                        <dd>
+                            @item.Clients.Phone
+                        </dd>
+                        <dt>
+                            Email
+                        </dt>
+                        <dd>
+                            @item.Clients.Email
+                        </dd>
+                        <dt>
+                            Date
+                        </dt>
+                        <dd>
+                            @item.Date
+                        </dd>
+                        <dt>
+                            Status
+                        </dt>
+                        <dd>
+                            @item.Status
+                        </dd>
+                    </dl>
+                    <a href="@Url.Action("Details_Client", "Client", new { id = item.ClientId })" class="btn btn-info btn-sm"> View clienet</a>
+                    <hr />
+
+                }
+
+            </div>
+        </div>
+    </div>
+</div>

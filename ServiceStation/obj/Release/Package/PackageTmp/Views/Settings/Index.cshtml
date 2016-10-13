@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "Settings";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <!-- Page Heading -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">
+                Rule
+            </h1>
+            <h3>
+                Description. How To Use:
+            </h3>
+            <p>
+                To work with the database used by the FE code Firstov technology.
+            </p>
+            <p>
+                To create and work with a database, you need to install SQL EXPRESS on  local machine.
+            </p>
+            <p>
+                Since the first launch of the application, the test itself is initializing a database and create the necessary tables.
+            </p>
+            <p>
+                The only thing you need to paying attention to this connection string.
+            </p>
+            <p> The basis of the connection string is as follows:
+
+            <p>
+                <add name="ServiceDbContext" connectionString="Data Source=.\SQLEXPRESS;Initial Catalog=ServiceStation;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" providerName="System.Data.SqlClient" />
+            </p>
+            <p>
+                As for dealing with errors and I used NLog and Elman, they just need to change the connection string to the database.
+            </p>
+            <p>
+                To create a database to NLog and ELMAH, run this ServiceStationSQL.
+            </p>
+            <p>
+                NLog connection string to find in the NLog.config file. ELMAH connection string to find in the Web.config
+            </p>
+
+            <p>
+                <a href="@Url.Action("Contact", "Settings")" class="btn btn-info btn-lg"> Contact with Us</a>
+            </p>
+
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,95 @@
+﻿@model ServiceStation.Models.CarViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <!-- Page Heading -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h3>Are you sure you want to delete this?</h3>
+            <div>
+                <h4>Car</h4>
+
+                <h2>@ViewBag.Message</h2>
+                <hr />
+                <dl class="dl-horizontal">
+                    <dt>
+                        @Html.DisplayNameFor(m => m.Make)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(m => m.Make)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(m => m.Models)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(m => m.Models)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(m => m.Year)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(m => m.Year)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(m => m.VIN)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(m => m.VIN)
+                    </dd>
+
+                </dl>
+
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+
+                    <div class="form-actions no-color">
+                        <a href="@Url.Action("List_Car", "Car")" class="btn btn-info btn-sm"> Back to list of car</a>
+                        |
+                        <input type="submit" value="Delete" class="btn btn-danger btn-sm" />
+                    </div>
+                }
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div>
+                <h4>Related Orders</h4>
+                <hr />
+                @foreach (var item in Model.RelatedOrder)
+                {
+                    <dl class="dl-horizontal">
+                        <dt>
+                        <dt>
+                            Name
+                        </dt>
+                        <dd>
+                            @item.Clients.FirstName @item.Clients.LastName
+                        </dd>
+                        <dt>
+                            Status
+                        </dt>
+                        <dd>
+                            @item.Status
+                        </dd>
+                        <dt>
+                            Date
+                        </dt>
+                        <dd>
+                            @item.Date
+                        </dd>
+                    </dl>
+                }
+            </div>
+        </div>
+    </div>
+</div>

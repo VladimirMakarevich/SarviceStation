@@ -1,0 +1,56 @@
+﻿@model ServiceStation.Models.ClientListViewModel
+@{
+    ViewBag.Title = "The list of client cards";
+    ViewBag.Subheading = "(last cards)";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <!-- Page Heading -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">
+                @ViewBag.Title
+                <small>@ViewBag.Subheading</small>
+            </h1>
+            <p>
+                <a href="@Url.Action("Index", "Home")" class="btn btn-info btn-sm"> Back to home</a>
+            </p>
+            <table class="table table-bordered">
+                <!-- On rows -->
+                <tr>
+                    <th>Id</th>
+                    <th class="warning">First Name</th>
+                    <th>Last Name</th>
+                    <th class="warning">Phone</th>
+                    <th>Email</th>
+                    <th class="warning">Action</th>
+                    <th>New Order</th>
+                </tr>
+                <!-- On cells (`td` or `th`) -->
+                @foreach (var m in Model.ClientCards)
+                {
+                    <tr>
+                        <td>
+                            <strong>@m.ClientId</strong>
+                        </td>
+                        <td class="info">@m.FirstName</td>
+                        <td>@m.LastName</td>
+                        <td class="info">@m.Phone</td>
+                        <td>@m.Email</td>
+                        <td>
+                            <a href="@Url.Action("Details_Client", "Client", new { id = m.ClientId })" class="btn btn-info btn-sm">Details</a>
+                            <a href="@Url.Action("Modified_Client", "Client", new { id = m.ClientId })" class="btn btn-info btn-sm">Modified</a>
+                            <a href="@Url.Action("Delete_Client", "Client", new { id = m.ClientId })" class="btn btn-warning btn-sm">Delete</a>
+                        </td>
+                        <td>
+                            <a href="@Url.Action("New_Order", "Order", new { id = m.ClientId })" class="btn btn-info btn-sm"> Add Order for the client</a>
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+    <!-- /.row -->
+</div>
+<!-- /.container-fluid -->

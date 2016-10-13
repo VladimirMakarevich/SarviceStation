@@ -4,7 +4,7 @@ using System.Web.Mvc;
 
 namespace ServiceStation.Controllers
 {
-    [Authorize]
+    //[Authorize]
     public class HomeController : DefaultController
     {
         public HomeController(IRepository repository)

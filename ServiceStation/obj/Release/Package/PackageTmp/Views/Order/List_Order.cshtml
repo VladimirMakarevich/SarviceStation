@@ -1,0 +1,54 @@
+﻿@model ServiceStation.Models.OrderListViewModel
+@{
+    ViewBag.Title = "The list of orders";
+    ViewBag.Subheading = "(last orders)";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <!-- Page Heading -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">
+                @ViewBag.Title
+                <small>@ViewBag.Subheading</small>
+            </h1>
+            <p>
+                <a href="@Url.Action("New_Order", "Order")" class="btn btn-info"> Add Order for the Client</a>
+            </p>
+            <table class="table table-bordered">
+                <!-- On rows -->
+                <tr>
+                    <th>Id</th>
+                    <th class="warning">Client</th>
+                    <th>Car</th>
+                    <th class="warning">Order Amount</th>
+                    <th>Date</th>
+                    <th class="warning">Status</th>
+                    <th>Action</th>
+                </tr>
+                <!-- On cells (`td` or `th`) -->
+                @foreach (var m in Model.Orders)
+                {
+                    <tr>
+                        <td>
+                            <strong>@m.OrderId</strong>
+                        </td>
+                        <td class="info">@m.Clients.FirstName&nbsp;@m.Clients.LastName</td>
+                        <td>@m.Cars.Make&nbsp;@m.Cars.Models;&nbsp;(VIN: @m.Cars.VIN)</td>
+                        <td class="info">@m.OrderAmount</td>
+                        <td>@m.Date</td>
+                        <td class="info">@m.Status</td>
+                        <td>
+                            <a href="@Url.Action("Details_Order", "Order", new { id = m.OrderId })" class="btn btn-info btn-sm">Details</a>
+                            <a href="@Url.Action("Modified_Order", "Order", new { id = m.OrderId })" class="btn btn-info btn-sm">Modified</a>
+                            <a href="@Url.Action("Delete_Order", "Order", new { id = m.OrderId })" class="btn btn-warning btn-sm">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+    <!-- /.row -->
+</div>
+<!-- /.container-fluid -->

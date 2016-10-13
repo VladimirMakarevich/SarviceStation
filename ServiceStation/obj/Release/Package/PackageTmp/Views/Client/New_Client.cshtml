@@ -1,0 +1,57 @@
+﻿@model ServiceStation.Models.ClientCardViewModel
+@{
+    ViewBag.Title = "Add a new card of the client";
+    ViewBag.Subheading = "(new customer)";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <!-- Page Heading -->
+    <div class="row">
+        <div class="col-md-8">
+            <h1 class="page-header">
+                @ViewBag.Title
+                <small>@ViewBag.Subheading</small>
+            </h1>
+
+            @using (Html.BeginForm("New_Client", "Client", FormMethod.Post, new { }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary("", false)
+                <div class="validation-summary-error" data-valmsg-summary="true">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.FirstName)
+                        @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control", @placeholder = "first name*" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.LastName)
+                        @Html.TextBoxFor(m => m.LastName, new { @class = "form-control", @placeholder = "last name*" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.DateOfBirth)
+                        @Html.TextBoxFor(m => m.DateOfBirth, new { @class = "form-control", @placeholder = "mm.dd.yyyy*" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Address)
+                        @Html.TextBoxFor(m => m.Address, new { @class = "form-control", @placeholder = "address*" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Phone)
+                        @Html.TextBoxFor(m => m.Phone, new { @class = "form-control", @placeholder = "phone number*" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Email)
+                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control", @placeholder = "email" })
+                    </div>
+                    <p>
+                        <a href="@Url.Action("List_Client", "Client")" class="btn btn-primary btn-sm"> Back to list of client</a>
+
+                        <button type="submit" value="Submit" class="btn btn-primary btn-sm"> Register</button>
+                    </p>
+                </div>
+            }
+        </div>
+    </div>
+    <!-- /.row -->
+</div>
+<!-- /.container-fluid -->

@@ -10,7 +10,7 @@ using ServiceStation.Models;
 
 namespace ServiceStation.Controllers
 {
-    [Authorize]
+    //[Authorize]
     public class SettingsController : Controller
     {
         private static NLog.Logger logger = LogManager.GetCurrentClassLogger();

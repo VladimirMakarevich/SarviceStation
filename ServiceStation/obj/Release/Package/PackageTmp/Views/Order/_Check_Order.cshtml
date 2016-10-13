@@ -1,0 +1,39 @@
+﻿@model ServiceStation.Models.CheckOrderViewModel
+
+
+
+@using (Html.BeginForm("Check_Order", "Order", FormMethod.Post, new { }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="validation-summary-error" data-valmsg-summary="true">
+        <div class="form-group">
+            @Html.LabelFor(m => m.Date)
+            @Html.TextBoxFor(m => m.Date, new { @class = "form-control", @placeholder = "make*" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Clients.FirstName)
+            @Html.TextBoxFor(m => m.Clients.FirstName, new { @class = "form-control", @placeholder = "model*" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Clients.LastName)
+            @Html.TextBoxFor(m => m.Clients.LastName, new { @class = "form-control", @placeholder = "model*" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Clients.Phone)
+            @Html.TextBoxFor(m => m.Clients.Phone, new { @class = "form-control", @placeholder = "year" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Cars.Make)
+            @Html.TextBoxFor(m => m.Cars.Make, new { @class = "form-control", @placeholder = "date*" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Cars.Models)
+            @Html.TextBoxFor(m => m.Cars.Models, new { @class = "form-control", @placeholder = "date*" })
+        </div>
+    </div>
+    <p>
+        <button type="submit" value="Submit" class="btn btn-primary"> Check Order</button>
+    </p>
+
+}
