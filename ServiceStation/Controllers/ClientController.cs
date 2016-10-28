@@ -181,6 +181,11 @@ namespace ServiceStation.Controllers
         #endregion
 
         #region Check Client
+        public ActionResult Check_Client()
+        {
+            return View();
+        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Result_Client(CheckClientViewModel model)

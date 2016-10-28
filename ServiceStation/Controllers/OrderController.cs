@@ -147,7 +147,7 @@ namespace ServiceStation.Controllers
         public async Task<ActionResult> New_Order(NewOrderViewModel model, int CarId)
         {
             try
-                {
+            {
                 var flag = await _repository.Order.FirstOrDefaultAsync(m => m.Date == model.Order.Date);
                 if (flag == null)
                 {
@@ -310,6 +310,12 @@ namespace ServiceStation.Controllers
         #endregion
 
         #region Check Order
+        public ActionResult Check_Order()
+        {
+            return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Check_Order(CheckOrderViewModel model)
         {
             if (ModelState.IsValid)
@@ -326,6 +332,6 @@ namespace ServiceStation.Controllers
             }
             return PartialView();
         }
-#endregion
+        #endregion
     }
 }

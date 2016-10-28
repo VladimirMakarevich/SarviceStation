@@ -95,6 +95,7 @@ namespace ServiceStation.Domain.Concrete
 
         public Task<Orders> CheckOrderAsync(Orders model)
         {
+            //TODO: Create search
             throw new NotImplementedException();
         }
         #endregion

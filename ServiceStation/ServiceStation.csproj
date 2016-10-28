@@ -162,17 +162,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Readme\Elmah.SqlServer.sql" />
-    <Content Include="App_Readme\Elmah.SqlServer.txt" />
-    <Content Include="App_Readme\Elmah.txt" />
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\css\bootstrap-rtl.css" />
-    <Content Include="Content\css\bootstrap-rtl.min.css" />
     <Content Include="Content\css\bootstrap.css" />
-    <Content Include="Content\css\bootstrap.min.css" />
     <Content Include="Content\css\plugins\morris.css" />
     <Content Include="Content\css\sb-admin-rtl.css" />
     <Content Include="Content\css\sb-admin.css" />
@@ -188,10 +179,6 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="NLog.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -331,6 +318,8 @@
     <Content Include="Views\Home\_Check_Car.cshtml" />
     <Content Include="Views\Client\Result_Client.cshtml" />
     <Content Include="Views\Car\Result_Car.cshtml" />
+    <Content Include="Views\Car\Check_Car.cshtml" />
+    <Content Include="Views\Client\Check_Client.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

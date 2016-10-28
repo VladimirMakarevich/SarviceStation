@@ -182,6 +182,11 @@ namespace ServiceStation.Controllers
         #endregion
 
         #region Check Car
+        public ActionResult Check_Car()
+        {
+            return View();
+        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Result_Car(CheckCarViewModel model)
