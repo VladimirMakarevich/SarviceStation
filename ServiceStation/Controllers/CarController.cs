@@ -205,7 +205,7 @@ namespace ServiceStation.Controllers
             }
 
             ViewBag.Message = "At your request no results";
-            return View();
+            return View("_Result");
         }
         #endregion
     }

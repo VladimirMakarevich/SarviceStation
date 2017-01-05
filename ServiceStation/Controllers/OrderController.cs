@@ -296,8 +296,8 @@ namespace ServiceStation.Controllers
         public async Task<ActionResult> DeleteConfirmed(int id)
         {
             var model = await _repository.Order.FirstOrDefaultAsync(m => m.OrderId == id);
-            if (!model.Clients.ClientOrder.Contains(model)
-                && !model.Cars.RelatedOrder.Contains(model)
+            if (model.Clients.ClientOrder.Contains(model)
+                && model.Cars.RelatedOrder.Contains(model)
                 && model.Date <= DateTime.Now)
             {
                 await _repository.DeleteOrderAsync(model);

@@ -320,6 +320,7 @@
     <Content Include="Views\Car\Result_Car.cshtml" />
     <Content Include="Views\Car\Check_Car.cshtml" />
     <Content Include="Views\Client\Check_Client.cshtml" />
+    <Content Include="Views\Shared\_Result.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
