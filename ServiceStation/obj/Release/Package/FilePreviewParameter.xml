@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="ServiceStation" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\STUDIO-LIVE\\Source\\ServiceStation\\ServiceStation\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\STUDIO-LIVE\\Source\\ServiceStation\\ServiceStation\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="ServiceDbContext-Web.config Connection String" description="" value="Data Source=.\SQLEXPRESS;Database=ServiceStation;User Id = Makarevich; Password = q26s4hcxz2332Q!@;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\STUDIO-LIVE\\Source\\ServiceStation\\ServiceStation\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ServiceDbContext']/@connectionString" />
+  </parameter>
+  <parameter name="ServiceStation.Domain.DAL.ServiceContext-Web.config Connection String" description="" value="ServiceStation.Domain.DAL.ServiceContext_ConnectionString" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\STUDIO-LIVE\\Source\\ServiceStation\\ServiceStation\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ServiceStation.Domain.DAL.ServiceContext']/@connectionString" />
+  </parameter>
+</parameters>

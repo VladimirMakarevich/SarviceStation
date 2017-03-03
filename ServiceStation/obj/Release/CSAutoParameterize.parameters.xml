@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ServiceDbContext-Web.config Connection String" description="ServiceDbContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=.\SQLEXPRESS;Database=ServiceStation;User Id = Makarevich; Password = q26s4hcxz2332Q!@;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\STUDIO-LIVE\\Source\\ServiceStation\\ServiceStation\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ServiceDbContext']/@connectionString" />
+  </parameter>
+  <parameter name="ServiceStation.Domain.DAL.ServiceContext-Web.config Connection String" description="ServiceStation.Domain.DAL.ServiceContext Connection String used in web.config by the application to access the database." defaultValue="ServiceStation.Domain.DAL.ServiceContext_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\STUDIO-LIVE\\Source\\ServiceStation\\ServiceStation\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ServiceStation.Domain.DAL.ServiceContext']/@connectionString" />
+  </parameter>
+  <parameter name="ServiceStation.Domain.DAL.ServiceContext_DatabasePublish-Web.config Connection String" description="ServiceStation.Domain.DAL.ServiceContext_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="ServiceStation.Domain.DAL.ServiceContext_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\STUDIO-LIVE\\Source\\ServiceStation\\ServiceStation\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ServiceStation.Domain.DAL.ServiceContext_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>
