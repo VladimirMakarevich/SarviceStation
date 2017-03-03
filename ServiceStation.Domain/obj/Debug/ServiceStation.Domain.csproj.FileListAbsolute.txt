@@ -37,3 +37,5 @@ C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation.Domain\obj\Deb
 C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation.Domain\obj\Debug\ServiceStation.Domain.Migrations.models.resources
 C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation.Domain\obj\Debug\ServiceStation.Domain.Migrations.model.resources
 C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation.Domain\obj\Debug\ServiceStation.Domain.csprojResolveAssemblyReference.cache
+C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation.Domain\obj\Debug\ServiceStation.Domain.Migrations.models.resources
+C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation.Domain\obj\Debug\ServiceStation.Domain.Migrations.model.resources

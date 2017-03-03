@@ -195,7 +195,6 @@ C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation\bin\Microsoft.Web.Infr
 C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation\bin\Newtonsoft.Json.dll
 C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation\bin\Ninject.dll
 C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation\bin\NLog.dll
-C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation\bin\NLog.Extended.dll
 C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation\bin\ServiceStation.Domain.dll
 C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation\bin\System.Web.Helpers.dll
 C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation\bin\System.Web.Mvc.dll
@@ -218,7 +217,6 @@ C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation\bin\Microsoft.CodeDom.
 C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation\bin\Newtonsoft.Json.xml
 C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation\bin\Ninject.xml
 C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation\bin\NLog.xml
-C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation\bin\NLog.Extended.xml
 C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation\bin\System.Web.Optimization.xml
 C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation\bin\System.Web.Razor.xml
 C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation\bin\System.Web.Webpages.xml
@@ -315,3 +313,6 @@ C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\bin\NLog.Web.x
 C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\bin\ServiceStation.dll.config
 C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\Makarevich Vladimir\Source\ServiceStation\ServiceStation\bin\System.Data.SqlServerCe.dll
+C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation\bin\Elmah.dll
+C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation\bin\NLog.Web.dll
+C:\Users\STUDIO-LIVE\Source\ServiceStation\ServiceStation\bin\NLog.Web.xml
