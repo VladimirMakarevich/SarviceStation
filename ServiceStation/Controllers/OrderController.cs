@@ -11,7 +11,7 @@ using System.Web.Mvc;
 
 namespace ServiceStation.Controllers
 {
-    //[Authorize]
+    [Authorize]
     public class OrderController : DefaultController
     {
         int PageSize = 20;

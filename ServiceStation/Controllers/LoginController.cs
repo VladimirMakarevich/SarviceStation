@@ -6,7 +6,7 @@ using System.Web.Security;
 
 namespace ServiceStation.Controllers
 {
-    //[Authorize]
+    [AllowAnonymous]
     public class LoginController : Controller
     {
         private readonly IAuthProvider _authProvider;
